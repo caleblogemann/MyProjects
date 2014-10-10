@@ -1,0 +1,85 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{Mechanics}[2014/09/08 Mechanics Package]
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+% bold vector notation add v to end
+% first letter - letter of vector or th for theta
+% h - second letter - hat accent
+% d - dot accent
+% dd - double dot accent
+
+% r hat
+\newcommand{\rhv}{\hat{\vec{r}}}
+\newcommand{\rh}{\hat{r}}
+\newcommand{\rhdv}{\dot{\hat{\vec{r}}}}
+\let\oldrhd\rhd
+\renewcommand{\rhd}{\dot{\hat{r}}}
+\newcommand{\rhddv}{\ddot{\hat{\vec{r}}}}
+\newcommand{\rhdd}{\ddot{\hat{r}}}
+% r
+\newcommand{\rv}{\vec{r}}
+\newcommand{\rdv}{\dot{\vec{r}}}
+\newcommand{\rd}{\dot{r}}
+\newcommand{\rddv}{\ddot{\vec{r}}}
+\newcommand{\rdd}{\ddot{r}}
+
+% x hat
+\newcommand{\xhv}{\hat{\vec{x}}}
+\newcommand{\xh}{\hat{x}}
+\newcommand{\xhdv}{\dot{\hat{\vec{x}}}}
+\newcommand{\xhd}{\dot{\hat{x}}}
+\newcommand{\xhddv}{\ddot{\hat{\vec{x}}}}
+\newcommand{\xhdd}{\ddot{\hat{x}}}
+% x
+\newcommand{\xv}{\vec{x}}
+\newcommand{\xdv}{\dot{\vec{x}}}
+\newcommand{\xd}{\dot{x}}
+\newcommand{\xddv}{\ddot{\vec{x}}}
+\newcommand{\xdd}{\ddot{x}}
+
+% y hat
+\newcommand{\yhv}{\hat{\vec{y}}}
+\newcommand{\yh}{\hat{y}}
+\newcommand{\yhdv}{\dot{\hat{\vec{y}}}}
+\newcommand{\yhd}{\dot{\hat{y}}}
+\newcommand{\yhddv}{\ddot{\hat{\vec{y}}}}
+\newcommand{\yhdd}{\ddot{\hat{y}}}
+% y
+\newcommand{\yv}{\vec{y}}
+\newcommand{\ydv}{\dot{\vec{y}}}
+\newcommand{\yd}{\dot{y}}
+\newcommand{\yddv}{\ddot{\vec{y}}}
+\newcommand{\ydd}{\ddot{y}}
+
+% theta hat
+\newcommand{\thhv}{\hat{\vec{\theta}}}
+\newcommand{\thh}{\hat{\theta}}
+\newcommand{\thhdv}{\dot{\hat{\vec{\theta}}}}
+\newcommand{\thhd}{\dot{\hat{\theta}}}
+\newcommand{\thhddv}{\ddot{\hat{\vec{\theta}}}}
+\newcommand{\thhdd}{\ddot{\hat{\theta}}}
+% theta
+\newcommand{\thv}{\vec{\theta}}
+\newcommand{\thdv}{\dot{\vec{\theta}}}
+\newcommand{\thd}{\dot{\theta}}
+\newcommand{\thddv}{\ddot{\vec{\theta}}}
+\newcommand{\thdd}{\ddot{\theta}}
+
+% m
+\newcommand{\md}{\dot{m}}
+\newcommand{\mdd}{\ddot{m}}
+
+% p
+\newcommand{\pv}{\vec{p}}
+\newcommand{\pdv}{\dot{\vec{p}}}
+\newcommand{\pd}{\dot{p}}
+\newcommand{\pddv}{\ddot{\vec{p}}}
+\newcommand{\pdd}{\ddot{p}}
+
+% v
+\newcommand{\vv}{\vec{v}}
+\newcommand{\vdv}{\dot{\vec{v}}}
+\newcommand{\vd}{\dot{v}}
+\newcommand{\vddv}{\ddot{\vec{v}}}
+\newcommand{\vdd}{\ddot{v}}

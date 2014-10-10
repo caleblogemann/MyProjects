@@ -1,0 +1,13 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{Logemann}[2014/09/08 Logemann Package]
+
+\RequirePackage{mathtools}
+\RequirePackage{Logemann}
+\RequirePackage{SetTheory}
+\RequirePackage{amsthm}
+
+\allowdisplaybreaks{}
+\everymath{\displaystyle}
+
+\let\oldlim\lim
+\renewcommand{\lim}[2]{\oldlim_{#1}\paren{#2}}
