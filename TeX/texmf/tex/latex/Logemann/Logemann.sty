@@ -37,37 +37,49 @@
 \def\set{\@ifstar{\oldset}{\oldset*}}
 
 \let\oldcos\cos
-\renewcommand{\cos}[1]{\oldcos\paren{#1}}
+\newcommand{\cosa}[1]{\oldcos\paren{#1}}
+\def\cos{\@ifstar{\oldcos}{\cosa}}
 
 \let\oldsin\sin
-\renewcommand{\sin}[1]{\oldsin\paren{#1}}
+\newcommand{\sina}[1]{\oldsin\paren{#1}}
+\def\sin{\@ifstar{\oldsin}{\sina}}
 
 \let\oldarcsin\arcsin
-\renewcommand{\arcsin}[1]{\oldarcsin\paren{#1}}
+\newcommand{\arcsina}[1]{\oldarcsin\paren{#1}}
+\def\arcsin{\@ifstar{\oldarcsin}{\arcsina}}
 
 \let\oldarccos\arccos
-\renewcommand{\arccos}[1]{\oldarccos\paren{#1}}
+\newcommand{\arccosa}[1]{\oldarccos\paren{#1}}
+\def\arccos{\@ifstar{\oldarccos}{\arccosa}}
 
 \let\oldarctan\arctan
-\renewcommand{\arctan}[1]{\oldarctan\paren{#1}}
+\newcommand{\arctana}[1]{\oldarctan\paren{#1}}
+\def\arctan{\@ifstar{\oldarctan}{\arctana}}
 
 \let\oldtan\tan
-\renewcommand{\tan}[1]{\oldtan\paren{#1}}
+\newcommand{\tana}[1]{\oldtan\paren{#1}}
+\def\tan{\@ifstar{\oldtan}{\tana}}
 
 \let\oldcsc\csc
-\renewcommand{\csc}[1]{\oldcsc\paren{#1}}
+\newcommand{\csca}[1]{\oldcsc\paren{#1}}
+\def\csc{\@ifstar{\oldcsc}{\csca}}
 
 \let\oldsec\sec
-\renewcommand{\sec}[1]{\oldsec\paren{#1}}
+\newcommand{\seca}[1]{\oldsec\paren{#1}}
+\def\sec{\@ifstar{\oldsec}{\seca}}
 
 \let\oldcot\cot
-\renewcommand{\cot}[1]{\oldcot\paren{#1}}
+\newcommand{\cota}[1]{\oldcot\paren{#1}}
+\def\cot{\@ifstar{\oldcot}{\cota}}
 
 \let\oldln\ln
-\renewcommand{\ln}[1]{\oldln\paren{#1}}
+\newcommand{\lna}[1]{\oldln\paren{#1}}
+\def\ln{\@ifstar{\oldln}{\lna}}
 
 \let\oldmin\min
-\renewcommand{\min}[1]{\oldmin\set{#1}}
+\newcommand{\mina}[1]{\oldmin\set{#1}}
+\def\min{\@ifstar{\oldmin}{\mina}}
 
 \let\oldmax\max
-\renewcommand{\max}[1]{\oldmax\set{#1}}
+\newcommand{\maxa}[1]{\oldmax\set{#1}}
+\def\max{\@ifstar{\oldmax}{\maxa}}

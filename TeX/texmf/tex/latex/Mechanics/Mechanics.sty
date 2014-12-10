@@ -1,6 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{Mechanics}[2014/09/08 Mechanics Package]
 
+\RequirePackage{mathtools}
+\RequirePackage{Logemann}
+\RequirePackage{amsthm}
+\RequirePackage{Calculus}
+
+% for the lagrangian 
+\let\oldL\L
+\renewcommand{\L}{\mathcal{L}}
+
 \renewcommand{\vec}[1]{\mathbf{#1}}
 
 % bold vector notation add v to end
@@ -65,6 +74,13 @@
 \newcommand{\thd}{\dot{\theta}}
 \newcommand{\thddv}{\ddot{\vec{\theta}}}
 \newcommand{\thdd}{\ddot{\theta}}
+
+% phi
+\newcommand{\phv}{\vec{\phi}}
+\newcommand{\phdv}{\dot{\vec{\phi}}}
+\newcommand{\phd}{\dot{\phi}}
+\newcommand{\phddv}{\ddot{\vec{\phi}}}
+\newcommand{\phdd}{\ddot{\phi}}
 
 % m
 \newcommand{\md}{\dot{m}}
