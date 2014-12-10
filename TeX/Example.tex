@@ -1,0 +1,63 @@
+\documentclass[12pt, oneside]{article}
+\usepackage[margin = 2cm]{geometry}
+\geometry{letterpaper}
+\usepackage[parfill]{parskip}
+
+\title{Latex Example}
+\author{Caleb Logemann}
+
+% package for professional tablesetting
+\usepackage{booktabs}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table Examples                                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    % example table using booktabs package
+    \begin{table}
+        \centering
+        \begin{tabular}{llr}
+            % top horizontal line - thicker rule
+            \toprule
+
+            % content spanning multiple columns
+            \multicolumn{2}{c}{Item} \\
+
+            % horizontal line - spanning only 2 columns
+            \cmidrule(r){1-2}
+
+            Animal    & Description & Price (\$) \\
+            % horizontal line across entire table - thinner rule
+            \midrule
+            Gnat      & per gram    & 13.65      \\
+                      & each        & 0.01       \\
+            Gnu       & stuffed     & 92.50      \\
+            Emu       & stuffed     & 33.33      \\
+            Armadillo & frozen      & 8.99       \\
+
+            % bottom horizontal line - thicker rule
+            \bottomrule
+        \end{tabular}
+
+        % include caption
+        \caption{Booktabs Example Table}
+
+        % include label - to be referenced elsewhere
+        % practice begin all table labels with tab:
+        \label{tab:exampleTable}
+    \end{table}
+
+\end{document}
+
+% Notes
+    % building tex document - using latex engine
+        % latexmk
+            % for pdf
+            % latexmk -pdf $File_Name
+
+    % Labeling
+        % Figures fig:
+        % Tables tab:
+        % Equations eq:
