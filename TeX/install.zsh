@@ -1,4 +1,4 @@
-#!#!/usr/bin/env zsh
+#!/usr/bin/env zsh
 
 # delete old link if exists
 if [ -h "$HOME/.texmf" ]; then
