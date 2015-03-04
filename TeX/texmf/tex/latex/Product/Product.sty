@@ -1,0 +1,15 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{Product}[2015/02/25 Product Package]
+% provides macros for writing products
+
+\RequirePackage{Logemann}
+
+% store old product command
+\let\oldprod\prod
+% define new product command with parentheses
+\newcommand{\prodp}[3]{\oldprod_{#1}^{#2}{\paren{#3}}}
+% define new product command without parentheses
+\newcommand{\prodnp}[3]{\oldprod_{#1}^{#2}{#3}}
+% redefine \sum command - default to use parentheses
+% \sum* no parentheses.
+\def\prod{\@ifstar{\prodnp}{\prodp}}
