@@ -36,6 +36,9 @@
 \let\oldset\set
 \def\set{\@ifstar{\oldset}{\oldset*}}
 
+% use \cos default to include parenthesis
+% \cos* will not have parenthesis
+% applies to all future commands
 \let\oldcos\cos
 \newcommand{\cosa}[1]{\oldcos\paren{#1}}
 \def\cos{\@ifstar{\oldcos}{\cosa}}
@@ -75,6 +78,14 @@
 \let\oldln\ln
 \newcommand{\lna}[1]{\oldln\paren{#1}}
 \def\ln{\@ifstar{\oldln}{\lna}}
+
+\let\oldlog\log
+\newcommand{\loga}[1]{\oldlog\paren{#1}}
+\def\log{\@ifstar{\oldlog}{\loga}}
+
+\newcommand{\logbaseparen}[2]{\oldlog_{#1}\paren{#2}}
+\newcommand{\logbase}[1]{\oldlog_{#1}}
+\def\logb{\@ifstar{\logbase}{\logbaseparen}}
 
 \let\oldmin\min
 \newcommand{\mina}[1]{\oldmin\set{#1}}
