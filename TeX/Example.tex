@@ -18,14 +18,19 @@
     % example table using booktabs package
     \begin{table}
         \centering
-        \begin{tabular}{llr}
+        % defining multiple columns
+        % *{# of columns}{alignment}
+        \begin{tabular}{*{2}{l}r}
             % top horizontal line - thicker rule
             \toprule
 
             % content spanning multiple columns
+            % {# of columns}{alignment}{content}
             \multicolumn{2}{c}{Item} \\
 
             % horizontal line - spanning only 2 columns
+            % [optional width](trimming){columns to span}
+            % trimming options r, r{width}, l, l{width}
             \cmidrule(r){1-2}
 
             Animal    & Description & Price (\$) \\
