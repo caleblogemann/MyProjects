@@ -1,0 +1,27 @@
+{
+    "name": "MyKitchen",
+    "version": "0.1.1",
+    "description": "An app to store recipes, kitchen inventory, and meal plans",
+    "author": "Caleb Logemann <caleb.logemann@gmail.com>",
+    "scripts": {
+        "test": "",
+        "start": "node app.js"
+    },
+    "main": "lib/foo.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/caleblogemann/MyProjects"
+    },
+    "bugs": {
+        "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+    },
+    "keywords": [
+    ],
+    "dependencies": {
+        "mongoose": "4.0.1"
+    },
+    "devDependencies": {
+    },
+    "private": true,
+    "license": "MIT"
+}
