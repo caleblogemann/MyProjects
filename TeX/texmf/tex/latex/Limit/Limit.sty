@@ -1,0 +1,6 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{Limit}[2015/03/30 Limit Package]
+
+% redefine limit command
+\let\oldlim\lim
+\renewcommand{\lim}[2]{\oldlim_{#1}\paren{#2}}
