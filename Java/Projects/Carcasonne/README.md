@@ -28,6 +28,8 @@ than I expected. I figured that this project would come more easily, but it
 definately had its challenges.
 
 Images
+======
+
 One image from Iconify.it was used. This image is located at
 src/resources/rotateCW.png.
 This image was licensed for free public use with a Creative Commons
