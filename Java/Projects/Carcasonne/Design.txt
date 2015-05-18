@@ -1,0 +1,49 @@
+Game.java
+    Player player1;
+    Player player2;
+    Player currentPlayer;
+    Board board;
+    
+    // Methods
+    constructor
+    getters and setters
+    scoringMethods
+
+Board.java extends AbstractTableModel
+    int size;
+    List<List<Tile>> tiles;
+
+    // Methods
+    constructor
+    getters and setters
+
+    // Methods to extend AbstractTableModel
+    getValueAt
+    setValueAt
+        set owners
+        calculate scoring
+        change turn
+    getRowCount
+    getColumnCount
+
+    boolean isPlayable(Tile tile)
+
+Tile.java
+    List<Integer> sides
+    List<Player> owners
+    int orientation
+
+    // Methods
+    static Tile getRandomTile()
+
+
+Player.java
+    int score
+
+    // Methods
+    incrementScore(int)
+    int getScore
+    resetScore/setScore(int)
+
+View.java
+    GUI
