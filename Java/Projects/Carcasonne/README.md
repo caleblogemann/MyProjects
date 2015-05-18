@@ -1,4 +1,6 @@
 Self Assessment
+===============
+
 I believe that I have completed all aspects of this project except for the
 extra credit cloisters.
 I think that I did fairly well at implementing good Object Oriented
