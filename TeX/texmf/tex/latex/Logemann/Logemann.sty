@@ -30,11 +30,17 @@
 \DeclarePairedDelimiter{\paren}{(}{)}
 \let\oldparen\paren
 \def\paren{\@ifstar{\oldparen}{\oldparen*}}
+\def\p{\@ifstar{\oldparen}{\oldparen*}}
 
 % Curly Brackets
 \DeclarePairedDelimiter{\set}{\{}{\}}
 \let\oldset\set
 \def\set{\@ifstar{\oldset}{\oldset*}}
+
+% Square Brackets
+\DeclarePairedDelimiter{\br}{[}{]}
+\let\oldbr\br
+\def\br{\@ifstar{\oldbr}{\oldbr*}}
 
 % use \cos default to include parenthesis
 % \cos* will not have parenthesis
