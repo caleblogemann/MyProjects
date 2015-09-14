@@ -1,7 +1,18 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{Logemann}[2014/09/08 Logemann Package]
 
+% set up language and font encoding
+\RequirePackage[english]{babel}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+
+% needed for \DeclarePairedDelimiter
 \RequirePackage{mathtools}
+% common packages used in almost all documents
+\RequirePackage{amsthm}
+\RequirePackage{amssymb}
+\RequirePackage{amsmath}
+\RequirePackage{booktabs}
 
 % absolute value function
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}

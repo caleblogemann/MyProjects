@@ -1,0 +1,11 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{Integral}[2015/09/10 Integral Package]
+
+\let\oldint\int
+\renewcommand{\int}[1]{\oldint\!{#1}}
+\newcommand{\intt}[2]{\oldint\!{#1}\,\mathrm{d}{#2}}
+\newcommand{\dint}[3]{\oldint_{#1}^{#2}\!{#3}}
+\newcommand{\dintt}[4]{\oldint_{#1}^{#2}\!{#3}\,\mathrm{d}{#4}}
+
+\let\oldiint\iint
+\renewcommand{\iint}[4]{\oldiint_{#1}\!{#2}\,\mathrm{d}{#3}\,\mathrm{d}{#4}}
