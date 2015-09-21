@@ -3,6 +3,7 @@ function [f] = plotGershgorinDisks(A, varargin)
     p.addRequired('A', @Utils.checkSquareNumericMatrix);
     p.addParameter('Axes', -1, @Utils.checkAxes);
     p.addParameter('DiskColor', 'k', @ischar);
+    p.addParameter('FigureTitle', 'Gershgorin Disks', @ischar);
     p.parse(A, varargin{:});
 
     % Determine if a
