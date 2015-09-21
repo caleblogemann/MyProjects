@@ -25,7 +25,8 @@
 % Norm - length of a vector
 \DeclarePairedDelimiter\norm{\lVert}{\rVert}
 \let\oldnorm\norm
-\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\renewcommand{\norm}[2][]{\oldnorm*{#2}_{#1}}
+%\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
 
 % Floor function
 \DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
