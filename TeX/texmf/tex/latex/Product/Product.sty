@@ -10,6 +10,6 @@
 \newcommand{\prodp}[3]{\oldprod_{#1}^{#2}{\paren{#3}}}
 % define new product command without parentheses
 \newcommand{\prodnp}[3]{\oldprod_{#1}^{#2}{#3}}
-% redefine \sum command - default to use parentheses
-% \sum* no parentheses.
+% redefine \prod command - default to use parentheses
+% \prod* no parentheses.
 \def\prod{\@ifstar{\prodnp}{\prodp}}
