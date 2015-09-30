@@ -31,16 +31,7 @@ BeginPackage["GeneticAlgorithm`"]
 		crossover[chromosome1_,chromosome2_,crossoverGene_]:= Join[chromosome1[[1;;crossoverGene]],
 			chromosome2[[crossoverGene+1;;]]]
 
-		geneticAlgorithm[f_,minX_,maxX_,precision_,chrPerGen_,numGen_,mutationRate_, showHistogram_]:= Module[{
-			(* number of digits *)
-			numInt,
-
-			(* number of digits to express decimal approximation *)
-			numFrac,
-
-			(* Total Number of Binary Digits *)
-			numBinDigits,
-
+		geneticAlgorithm[f_, nGenes_, chrPerGen_, numGen_, mutationRate_]:= Module[{
 			(* List of current generations chromosomes *)
 			currentGeneration,
 
@@ -61,27 +52,17 @@ BeginPackage["GeneticAlgorithm`"]
 	
 			(* list of new chromosomes for next generation *)
 			nextGeneration
-		},
-	
-			(* genes for integer precision *)
-			numInt = Floor[Log[2,Max[{Abs[minX],Abs[maxX]}]]+1];
-			
-			(* genes for fractional precision *)
-			numFrac = Abs[Floor[Log[2,10^(-1 * precision)]]];
-			
-			(* add up total number genes *)
-			numBinDigits = 1 + numInt + numFrac;
-			
+		},		
 			(* Create the initial generation randomly *)
-			currentGeneration = Table[Table[RandomInteger[],{i,1,numBinDigits}],{j,1,chrPerGen}];
+			currentGeneration = RandomInteger[{0,1},{chrPerGen, nGenes}];
 			
 			(* Create next generation *)
 			(* Find the fitness of current generation *)
 			For[generation = 1, generation <= numGen, generation++,
-				currentGenerationFitness = f[binToDec[#,numInt,numFrac]]&/@currentGeneration;
+				currentGenerationFitness = f[#]&/@currentGeneration;
 
 				(* print current status *)
-				If[Mod[generation, 10] == 0,
+				(*If[Mod[generation, 10] == 0,
 					Print["Generation: "<>ToString[generation]<>" Max Value: "<>
 						ToString[Max[currentGenerationFitness]]<>" at "<>
 						ToString[binToDec[currentGeneration[[
@@ -89,7 +70,7 @@ BeginPackage["GeneticAlgorithm`"]
 					If[showHistogram,
 						Print[Histogram[binToDec[#,numInt,numFrac]&/@currentGeneration]];
 					];
-				];
+				];*)
 
 				
 				currentGenerationFitnessDistribution = Accumulate[currentGenerationFitness]/Total[currentGenerationFitness];
