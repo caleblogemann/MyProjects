@@ -2,9 +2,9 @@
 
 BeginPackage["GeneticAlgorithm`"]
 
-    geneticAlgorithm::usage = "GeneticAlgorithm[f, minX, maxX, precision, chrPerGen, numGen, mutationRate] 
-            finds the maximum of the function f over the interval [minX, maxX] via a gentic algorithm using 
-            chrPerGen chromosome per generation and numGen generations with a mutation rate specified by mutationRate"
+    geneticAlgorithm::usage = "GeneticAlgorithm[f, nGenes, chrPerGen, numGen, mutationRate] 
+            finds the maximum of the function f via a gentic algorithm using 
+            chrPerGen chromosomes per generation and numGen generations with a mutation rate specified by mutationRate"
 
     Begin["Private`"]
 
@@ -32,6 +32,12 @@ BeginPackage["GeneticAlgorithm`"]
             chromosome2[[crossoverGene+1;;]]]
 
         geneticAlgorithm[f_, nGenes_, chrPerGen_, numGen_, mutationRate_]:= Module[{
+            (* store maximum fitness found so far *)
+            maxFitness,
+
+            (* store chromosome achieving maxFitness *)
+            maxChr,
+
             (* List of current generations chromosomes *)
             currentGeneration,
 
@@ -53,6 +59,10 @@ BeginPackage["GeneticAlgorithm`"]
             (* list of new chromosomes for next generation *)
             nextGeneration
         },
+            (* Initialize variables to store answer *)
+            maxFitness;
+            maxChr;
+
             (* Create the initial generation randomly *)
             (* chrPerGen rows and nGenes columns *)
             currentGeneration = RandomInteger[{0,1},{chrPerGen, nGenes}];
@@ -63,17 +73,22 @@ BeginPackage["GeneticAlgorithm`"]
                 (* maps currentGeneration to fitness function *)
                 (* Creates list of fitness values *)
                 currentGenerationFitness = f[#]&/@currentGeneration;
+                currentMaxFitness = Max[currentGenerationFitness];
+                currentMaxChr = currentGeneration[[Ordering[currentGenerationFitness,-1][[1]]]];
+
+                (* update max fitness if necessary *)
+                If[currentMaxFitness > maxFitness || generation == 1,
+                    maxFitness = currentMaxFitness;
+                    maxChr = currentMaxChr;
+                ];
 
                 (* print current status *)
-                (*If[Mod[generation, 10] == 0,
-                    Print["Generation: "<>ToString[generation]<>" Max Value: "<>
-                        ToString[Max[currentGenerationFitness]]<>" at "<>
-                        ToString[binToDec[currentGeneration[[
-                        Ordering[currentGenerationFitness,-1][[1]]]], numInt, numFrac]]];
-                    If[showHistogram,
-                        Print[Histogram[binToDec[#,numInt,numFrac]&/@currentGeneration]];
+                If[Mod[generation, 10] == 0,
+                   Print["Generation: "<>ToString[generation]<>" Max Value: "<>
+                        ToString[currentMaxFitness]<>" at "<>
+                        ToString[currentMaxChr]
                     ];
-                ];*)
+                ];
 
                 (* values from 0 to 1 giving ranges proportional to fitness of each chromosome *)
                 currentGenerationFitnessDistribution = Accumulate[currentGenerationFitness]/Total[currentGenerationFitness];
@@ -90,6 +105,7 @@ BeginPackage["GeneticAlgorithm`"]
                 nextGeneration = mutate[#, mutationRate]&/@nextGeneration;
                 currentGeneration = nextGeneration;
             ]
+            Return[{maxChr, maxFitness}];
         ]
     End[]
 EndPackage[]
