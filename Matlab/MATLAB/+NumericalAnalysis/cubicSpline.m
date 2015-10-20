@@ -26,7 +26,7 @@ function [c0, c1, c2, c3] = cubicSpline(x, f)
     a(2:n-1) = 2*(deltaX(2:n-1) + deltaX(1:n-2));
     b(1:n-2) = deltaX(2:n-1);
     c(2:n-1) = deltaX(1:n-2);
-    v(2:n-1) = 3*(deltaX(1:n-2)*ddf(2:n-1) + deltaX(2:n-1)*ddf(1:n-2));
+    v(2:n-1) = 3*(deltaX(1:n-2).*ddf(2:n-1) + deltaX(2:n-1).*ddf(1:n-2));
 
     % special by type of cubic spline
     % TODO: create more options than just natural cubic spline and
@@ -36,7 +36,7 @@ function [c0, c1, c2, c3] = cubicSpline(x, f)
     % first point p_1''(x_1) = 0
     a(1) = 2;
     c(1) = 1;
-    v(1) = 3*ddf(1)
+    v(1) = 3*ddf(1);
     % second point p_{n-1}''(x_n) = 0
     a(n) = 2;
     b(n-1) = 1;
