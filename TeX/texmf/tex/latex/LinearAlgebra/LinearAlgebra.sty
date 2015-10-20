@@ -1,7 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{LinearAlgebra}[2015/08/31 LinearAlgebra Package]
 
+% required for DeclareMathOperator
+\RequirePackage{amsopn}
 \RequirePackage{Vector}
 \RequirePackage{Logemann}
+
 \newcommand{\spec}[1]{\text{spec}\p{#1}}
 \newcommand{\con}[1]{\text{con}\p{#1}}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\nrank}{nrank}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\span}{span}
+\DeclareMathOperator{\diag}{diag}
