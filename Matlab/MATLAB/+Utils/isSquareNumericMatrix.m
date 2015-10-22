@@ -1,3 +1,4 @@
-function [result] = checkSquareNumericMatrix(x);
-    result = isnumeric(x) & Utils.checkSquareMatrix(x);
+function [result] = isSquareNumericMatrix(x);
+    validateattributes(x, 
+    
 end

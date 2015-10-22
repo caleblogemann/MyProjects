@@ -1,4 +1,3 @@
-function result = checkSquareMatrix(x)
-    [nRows, nCols] = size(x);
-    result = nRows == nCols;
+function [] = isSquareMatrix(x)
+    validateattributes(x, Utils.allClasses, {'square'});
 end
