@@ -8,7 +8,7 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
 
     p = inputParser;
     p.addRequired('A', @isnumeric);
-    p.addOptional('threshold', 10^([13), @isnumeric);
+    p.addOptional('threshold', 10^(-13), @isnumeric);
     p.parse(A, varargin{:});
 
     [m, n] = size(A);
@@ -21,7 +21,7 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
     %Shat = flipud(fliplr(D));
     sortedEigenvalues = sort(diag(D), 'descend');
     % threshold eigenvalues
-    sortedEigenvalues = sortedEigenvalues(sortedEigenvalues > p.Reseults.threshold);
+    sortedEigenvalues = sortedEigenvalues(sortedEigenvalues > p.Results.threshold);
     singularValues = sqrt(sortedEigenvalues);
 
     % create Shat as diagonal matrix with singular values as diagonal
@@ -33,5 +33,8 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
     V = fliplr(V);
     Vhat = V(:,1:r);
 
-    Uhat = A*V./repmat(singularValues', m, 1);
+    % Define u_i as 1/\sigma_i A v_i
+    % A*Vhat is A*v_i for all i
+    % then divide by singular values
+    Uhat = (A*Vhat)./repmat(singularValues', m, 1);
 end
