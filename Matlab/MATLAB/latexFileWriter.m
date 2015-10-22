@@ -129,7 +129,7 @@ classdef latexFileWriter < handle
                 if(i < nRows)
                     output = sprintf('%s \\\\\n', output);
                 else
-                    output = sprintf('%s \n', output);
+                    output = sprintf('%s\n', output);
                 end
             end
             output = sprintf('%s\\end{bmatrix}\n', output);
