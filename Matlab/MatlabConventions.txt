@@ -1,0 +1,27 @@
+Programming
+
+Style
+    Variable Naming
+        always use camelCase
+        only use short variable names for variables with small scope
+        use n as a prefix for the number of objects not num e.g. nFiles, nObjects
+        prefix i for iterator e.g. iFile
+        boolean variables should be postive e.g. isSquare and not isNotSquare
+        constants use all caps with underscore separation e.g. MAX_ITERATIONS
+
+        For structures
+            capitalize structure name
+            don't repeat e.g. use Segment.length not Segment.segmentLength
+
+    Function names
+        use camelCase
+        use either verb to describe what function does or name to describe describe single output
+        reserve word get, set, compute, find, is, has, should, initialize
+
+    General
+        always camelCase
+        use latex not LaTeX
+    Objects
+        refer to this object as obj
+        no spaces around input or output variables
+        for getters return value named value
