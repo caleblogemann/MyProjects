@@ -1,3 +1,3 @@
 function [] = isNumericMatrix(x);
-    validateattributes(x, {'numeric'}, {'ndims', 2});
+    result = isnumeric(x) && Utils.isMatrix(x);
 end

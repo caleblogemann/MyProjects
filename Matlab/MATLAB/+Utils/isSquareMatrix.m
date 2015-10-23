@@ -1,3 +1,3 @@
 function [] = isSquareMatrix(x)
-    validateattributes(x, Utils.allClasses, {'square'});
+    result = Utils.isMatrix(x) && size(A) == size(A');
 end

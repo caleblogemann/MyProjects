@@ -1,3 +1,3 @@
 function [result] = isUpperTriangular(A)
-    result = 
+    result = istriu(A);
 end

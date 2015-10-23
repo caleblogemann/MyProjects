@@ -1,3 +1,3 @@
-function [] = isNumericMatrix(x);
-    validateattributes(x, {'numeric'}, {'ndims', 2});
+function [result] = isMatrix(x);
+    result = ndims(x) == 2;
 end

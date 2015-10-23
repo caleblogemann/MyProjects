@@ -1,4 +1,4 @@
-function [result] = checkFunctionHandleCell(x)
+function [result] = isFunctionHandleCell(x)
     if(iscell(x))
         for i=1:length(x)
             if(~isa(x{i}, 'function_handle'))

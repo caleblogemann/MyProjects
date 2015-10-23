@@ -1,4 +1,3 @@
 function [result] = isSquareNumericMatrix(x);
-    validateattributes(x, 
-    
+    result = isnumeric(x) && Utils.isSquareMatrix(x);
 end

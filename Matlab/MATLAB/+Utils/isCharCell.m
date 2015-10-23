@@ -1,4 +1,4 @@
-function [result] = checkCharCell(x)
+function [result] = isCharCell(x)
     if(iscell(x))
         for i=1:length(x)
             if(~ischar(x{i}))

@@ -1,3 +1,3 @@
-function [result] = checkPositiveInteger(x)
-    result = Utils.checkInteger(x) & x > 0;
+function [result] = isPositiveInteger(x)
+    result = Utils.isInteger(x) & x > 0;
 end

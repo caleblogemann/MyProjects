@@ -1,3 +1,3 @@
-function [result] = checkNumericVector(x)
+function [result] = isNumericVector(x)
     result = isnumeric(x) & isvector(x);
 end
