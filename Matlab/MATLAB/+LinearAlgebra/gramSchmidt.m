@@ -6,25 +6,38 @@ function [Q, varargout] = gramSchmidt(A)
 %   reduced QR factorization of A
 % Note that the notation/algorithm comes from the Handbook of Linear Algebra
 %
+% Inputs:
+%    A is a complex m by n matrix 
+%    needs to be of full rank, that is the columns of A need to be linearly
+%    independent
+%
+% Outputs
+%    Q - matrix with orthonormal columns that span the column space of A
+%    R is upper triangular matrix with coefficients of projection
+%    notation used to model the fact that this algorithm can be used to create
+%    reduced QR decomposition
+%
 % Examples/Sample Usage
-%   For creation of orthonormal set
-%   U = gramSchmidt(A);
-%   For reduced QR decomposition
-%   [Qhat, Rhat] = gramSchmidt(A);
+%    For creation of orthonormal set
+%    U = gramSchmidt(A);
+%    For reduced QR decomposition
+%    [Qhat, Rhat] = gramSchmidt(A);
 %
-%   A is a complex m by n matrix 
-%   needs to be of full rank, that is the columns of A need to be linearly
-%   independent
+% Other m-files required: none
+% Subfunctions: none
+% MAT-files required: none
 %
-%   Q is matrix with orthonormal columns that span the column space of A
-%   R is upper triangular matrix with coefficients of projection
-%   notation used to model the fact that this algorithm can be used to create
-%   reduced QR decomposition
+% See also: LINEARALGEBRA.REDUCEDQR, LINEARALGEBRA.EXTENDTOORTHONORMALBASIS
+
+% Author: Caleb Logemann
+% email: logemann@iastate.edu
+% Website: http://www.logemann.public.iastate.edu/
+% October 2015; Last revision: 23-October-2015
 
 % TODO: put check in to be able to throw away vectors if not linearly
 % independent
     p = inputParser;
-    p.addRequired('A', @isnumeric);
+    p.addRequired('A', @Utils.isNumericMatrix);
     p.parse(A);
 
     [m,n] = size(A);

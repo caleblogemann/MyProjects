@@ -5,6 +5,32 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
 % Shat is r by r and is real diagonal with the singular values of A on the diagonal
 % Shat = diag(\sigma_1, \sigma_2, ..., \sigma_r) such that
 % \sigma_1 >= \sigma_2 >= ... >= \sigma_r
+%
+% Syntax:  [Uhat, Shat, Vhat] = LinearAlgebra.reducedSVD(A)
+%
+% Inputs:
+%    A - m by n matrix, with rank A = r where 1 <= r <= n
+%
+% Outputs:
+%    UHat - m by r matrix with orthonormal columns
+%    Shat - r by r diagonal matrix where diagonal entries are nonzero singular values
+%    Vhat - n by r matrix with orthonormal columns
+%
+% Example: 
+%    A = rand(8, 6);
+%    [Uhat, Shat, Vhat] = LinearAlgebra.reducedSVD(A);
+%    A - Uhat*Shat*Vhat';
+%
+% Other m-files required: none
+% Subfunctions: none
+% MAT-files required: none
+%
+% See also: SVD, LINEARALGEBRA.SVD
+
+% Author: Caleb Logemann
+% email: logemann@iastate.edu
+% Website: http://www.logemann.public.iastate.edu/
+% October 2015; Last revision: 23-October-2015
 
     p = inputParser;
     p.addRequired('A', @isnumeric);
@@ -21,12 +47,14 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
     %Shat = flipud(fliplr(D));
     sortedEigenvalues = sort(diag(D), 'descend');
     % threshold eigenvalues
-    sortedEigenvalues = sortedEigenvalues(sortedEigenvalues > p.Results.threshold);
+    sortedEigenvalues = sortedEigenvalues(abs(sortedEigenvalues) > p.Results.threshold);
     singularValues = sqrt(sortedEigenvalues);
+    % threshold singularvalues
+    %singularValues = singularValues(singularValues > p.Results.threshold);
 
     % create Shat as diagonal matrix with singular values as diagonal
     Shat = diag(singularValues);
-    % rank of same as number of singular values
+    % rank is same as number of postive singular values
     r = length(singularValues);
 
     % take eigenvectors A'A associated with r largest eigenvalues
@@ -37,4 +65,8 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
     % A*Vhat is A*v_i for all i
     % then divide by singular values
     Uhat = (A*Vhat)./repmat(singularValues', m, 1);
+    Uhat = zeros(m,r );
+    for p = 1:r
+       Uhat(:,p) = 1/singularValues(p)*A*Vhat(:,p);
+    end
 end
