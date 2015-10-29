@@ -3,5 +3,13 @@
 
 \renewcommand{\d}[2]{\frac{\mathrm{d}{#1}}{\mathrm{d}{#2}}}
 \newcommand{\ds}[3]{\frac{\mathrm{d}^{#1}{#2}}{\mathrm{d}{#3}^{#1}}}
-\newcommand{\pd}[2]{\frac{\partial{#1}}{\partial{#2}}}
-\newcommand{\pds}[3]{\frac{\partial^{#1}{#2}}{\partial{#3}^{#1}}}
+
+% partial derivative commands
+\newcommand{\pda}[3][]{\frac{\partial^{#1}}{\partial{#3}^{#1}}\p{#2}}
+\newcommand{\pdna}[2][]{\frac{\partial^{#1}}{\partial{#2}^{#1}}}
+\def\pd{\@ifstar{\pdna}{\pda}}
+
+% mixed partial derivative macros
+\newcommand{\mpda}[3][]{\frac{\partial^{#1}}{#3}\p{#2}}
+\newcommand{\mpdna}[2][]{\frac{\partial^{#1}}{#2}}
+\def\mpd{\@ifstar{\mpdna}{\mpda}}
