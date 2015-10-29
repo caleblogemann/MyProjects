@@ -1,7 +1,7 @@
 function [result] = isFunctionHandleCell(x)
     if(iscell(x))
         for i=1:length(x)
-            if(~isa(x{i}, 'function_handle'))
+            if(~Utils.isFunctionHandle(x{i}))
                 result = false;
                 return;
             end
