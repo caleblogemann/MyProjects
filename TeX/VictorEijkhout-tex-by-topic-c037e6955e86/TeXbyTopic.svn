@@ -1,0 +1,19 @@
+% SVN Keyword cache
+
+% Global values:
+\def \svnrev {3}
+\def \svndate {2008-02-02 11:19:13Z}
+\def \svnauthor {victor}
+\def \svnyear {2008}
+\def \svnmonth {02}
+\def \svnday {02}
+\def \svnhour {11}
+\def \svnminute {19}
+\def \svnsecond {13}
+\def \svntimezonehour {+00}
+\def \svntimezoneminute {00}
+\svn@gdefverb \svnurl {TeXbyTopic.tex}
+\svn@gdefverb \svnfname {TeXbyTopic.tex}
+
+
+

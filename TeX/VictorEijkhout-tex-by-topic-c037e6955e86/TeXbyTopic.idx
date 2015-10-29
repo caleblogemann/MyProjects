@@ -1,0 +1,738 @@
+\indexentry{line! input|hyperpage}{29}
+\indexentry{line! end|hyperpage}{29}
+\indexentry{machine independence|hyperpage}{29}
+\indexentry{endlinechar@{\tt  \char `\\endlinechar}@|hyperpage}{30}
+\indexentry{category code|hyperpage}{30}
+\indexentry{category!0|hyperpage}{30}
+\indexentry{category!1|hyperpage}{30}
+\indexentry{category!2|hyperpage}{30}
+\indexentry{category!3|hyperpage}{30}
+\indexentry{category!4|hyperpage}{30}
+\indexentry{category!5|hyperpage}{30}
+\indexentry{category!6|hyperpage}{30}
+\indexentry{category!7|hyperpage}{30}
+\indexentry{category!8|hyperpage}{31}
+\indexentry{category!9|hyperpage}{31}
+\indexentry{category!10|hyperpage}{31}
+\indexentry{category!11|hyperpage}{31}
+\indexentry{category!12|hyperpage}{31}
+\indexentry{category!13|hyperpage}{31}
+\indexentry{category!14|hyperpage}{31}
+\indexentry{category!15|hyperpage}{31}
+\indexentry{catcode@{\tt  \char `\\catcode}@|hyperpage}{31}
+\indexentry{active@{\tt  \char `\\active}@|hyperpage}{31}
+\indexentry{category!16|hyperpage}{31}
+\indexentry{category!0|hyperpage}{32}
+\indexentry{category!11|hyperpage}{32}
+\indexentry{control!symbol|hyperpage}{32}
+\indexentry{control!sequence|hyperpage}{32}
+\indexentry{\char 32@{\tt  \char `\\\char 32}@|hyperpage}{32}
+\indexentry{space!control|hyperpage}{32}
+\indexentry{category!6|hyperpage}{32}
+\indexentry{states!internal|hyperpage}{32}
+\indexentry{category!10|hyperpage}{32}
+\indexentry{\char94\char94\ replacement|hyperpage}{33}
+\indexentry{category!7|hyperpage}{33}
+\indexentry{category!15|hyperpage}{33}
+\indexentry{category!7|hyperpage}{33}
+\indexentry{escape!character|hyperindexformat{\see{character, escape}}}{33}
+\indexentry{character!escape|hyperpage}{33}
+\indexentry{category!11|hyperpage}{34}
+\indexentry{category!10|hyperpage}{34}
+\indexentry{character!parameter|hyperpage}{34}
+\indexentry{character!escape|hyperpage}{35}
+\indexentry{par@{\tt  \char `\\par}@|hyperpage}{36}
+\indexentry{line!empty|hyperpage}{36}
+\indexentry{character!space|hyperpage}{37}
+\indexentry{token!space|hyperpage}{37}
+\indexentry{spaces!optional|hyperpage}{37}
+\indexentry{ignorespaces@{\tt  \char `\\ignorespaces}@|hyperpage}{38}
+\indexentry{category!12|hyperpage}{39}
+\indexentry{category!10|hyperpage}{39}
+\indexentry{space! token|hyperpage}{39}
+\indexentry{spaces!funny|hyperpage}{39}
+\indexentry{\char 32@{\tt  \char `\\\char 32}@|hyperpage}{39}
+\indexentry{line!terminator|hyperpage}{40}
+\indexentry{category!5|hyperpage}{40}
+\indexentry{obeylines@{\tt  \char `\\obeylines}@|hyperpage}{40}
+\indexentry{character!codes|hyperpage}{45}
+\indexentry{char@{\tt  \char `\\char}@|hyperpage}{46}
+\indexentry{chardef@{\tt  \char `\\chardef}@|hyperpage}{46}
+\indexentry{let@{\tt  \char `\\let}@|hyperpage}{47}
+\indexentry{character!implicit|hyperpage}{47}
+\indexentry{accents|hyperpage}{48}
+\indexentry{accent@{\tt  \char `\\accent}@|hyperpage}{48}
+\indexentry{category!11|hyperpage}{48}
+\indexentry{category!12|hyperpage}{48}
+\indexentry{c@{\tt  \char `\\c}@|hyperpage}{49}
+\indexentry{slant!per point|hyperpage}{49}
+\indexentry{category!16|hyperpage}{49}
+\indexentry{lccode@{\tt  \char `\\lccode}@|hyperpage}{50}
+\indexentry{uccode@{\tt  \char `\\uccode}@|hyperpage}{50}
+\indexentry{uppercase!code|hyperpage}{50}
+\indexentry{code!uppercase|hyperindexformat{\see{uppercase, code}}}{50}
+\indexentry{lowercase!code|hyperpage}{50}
+\indexentry{code!lowercase|hyperindexformat{\see{lowercase, code}}}{50}
+\indexentry{uppercase@{\tt  \char `\\uppercase}@|hyperpage}{50}
+\indexentry{lowercase@{\tt  \char `\\lowercase}@|hyperpage}{50}
+\indexentry{codenames|hyperpage}{51}
+\indexentry{string@{\tt  \char `\\string}@|hyperpage}{51}
+\indexentry{escapechar@{\tt  \char `\\escapechar}@|hyperpage}{52}
+\indexentry{category!12|hyperpage}{52}
+\indexentry{category!10|hyperpage}{52}
+\indexentry{fonts|hyperpage}{53}
+\indexentry{font@{\tt  \char `\\font}@|hyperpage}{54}
+\indexentry{fontname@{\tt  \char `\\fontname}@|hyperpage}{54}
+\indexentry{category!12|hyperpage}{55}
+\indexentry{category!10|hyperpage}{55}
+\indexentry{nullfont@{\tt  \char `\\nullfont}@|hyperpage}{55}
+\indexentry{\n{tfm} files|hyperpage}{55}
+\indexentry{fontdimen@{\tt  \char `\\fontdimen}@|hyperpage}{55}
+\indexentry{font!dimensions|hyperpage}{55}
+\indexentry{assignment!font|hyperpage}{56}
+\indexentry{assignment!global|hyperpage}{56}
+\indexentry{kerning|hyperpage}{56}
+\indexentry{italic correction|hyperpage}{56}
+\indexentry{/@{\tt  \char `\\/}@|hyperpage}{56}
+\indexentry{box!bounding|hyperpage}{56}
+\indexentry{ligatures|hyperpage}{57}
+\indexentry{noboundary@{\tt  \char `\\noboundary}@|hyperpage}{57}
+\indexentry{boxes|(hyperpage}{59}
+\indexentry{newbox@{\tt  \char `\\newbox}@|hyperpage}{60}
+\indexentry{setbox@{\tt  \char `\\setbox}@|hyperpage}{61}
+\indexentry{box@{\tt  \char `\\box}@|hyperpage}{61}
+\indexentry{copy@{\tt  \char `\\copy}@|hyperpage}{61}
+\indexentry{lastbox@{\tt  \char `\\lastbox}@|hyperpage}{61}
+\indexentry{hbox@{\tt  \char `\\hbox}@|hyperpage}{62}
+\indexentry{vbox@{\tt  \char `\\vbox}@|hyperpage}{62}
+\indexentry{vtop@{\tt  \char `\\vtop}@|hyperpage}{62}
+\indexentry{moveleft@{\tt  \char `\\moveleft}@|hyperpage}{62}
+\indexentry{moveright@{\tt  \char `\\moveright}@|hyperpage}{62}
+\indexentry{boxmaxdepth@{\tt  \char `\\boxmaxdepth}@|hyperpage}{63}
+\indexentry{ht@{\tt  \char `\\ht}@|hyperpage}{65}
+\indexentry{dp@{\tt  \char `\\dp}@|hyperpage}{65}
+\indexentry{wd@{\tt  \char `\\wd}@|hyperpage}{65}
+\indexentry{smash@{\tt  \char `\\smash}@|hyperpage}{65}
+\indexentry{assignment!box size|hyperpage}{65}
+\indexentry{assignment!global|hyperpage}{65}
+\indexentry{raise@{\tt  \char `\\raise}@|hyperpage}{65}
+\indexentry{lower@{\tt  \char `\\lower}@|hyperpage}{65}
+\indexentry{moveleft@{\tt  \char `\\moveleft}@|hyperpage}{65}
+\indexentry{moveright@{\tt  \char `\\moveright}@|hyperpage}{65}
+\indexentry{llap@{\tt  \char `\\llap}@|hyperpage}{66}
+\indexentry{rlap@{\tt  \char `\\rlap}@|hyperpage}{66}
+\indexentry{badness@{\tt  \char `\\badness}@|hyperpage}{67}
+\indexentry{TeX, version 3@\csname TeX\endcsname , version 3|hyperpage}{67}
+\indexentry{hbadness@{\tt  \char `\\hbadness}@|hyperpage}{67}
+\indexentry{vbadness@{\tt  \char `\\vbadness}@|hyperpage}{67}
+\indexentry{hfuzz@{\tt  \char `\\hfuzz}@|hyperpage}{67}
+\indexentry{vfuzz@{\tt  \char `\\vfuzz}@|hyperpage}{67}
+\indexentry{overfullrule@{\tt  \char `\\overfullrule}@|hyperpage}{67}
+\indexentry{category!1|hyperpage}{67}
+\indexentry{category!2|hyperpage}{67}
+\indexentry{everyhbox@{\tt  \char `\\everyhbox}@|hyperpage}{67}
+\indexentry{everyvbox@{\tt  \char `\\everyvbox}@|hyperpage}{67}
+\indexentry{setbox@{\tt  \char `\\setbox}@|hyperpage}{67}
+\indexentry{afterassignment@{\tt  \char `\\afterassignment}@|hyperpage}{67}
+\indexentry{unhbox@{\tt  \char `\\unhbox}@|hyperpage}{68}
+\indexentry{unvbox@{\tt  \char `\\unvbox}@|hyperpage}{68}
+\indexentry{unhcopy@{\tt  \char `\\unhcopy}@|hyperpage}{68}
+\indexentry{unvcopy@{\tt  \char `\\unvcopy}@|hyperpage}{68}
+\indexentry{leavevmode@{\tt  \char `\\leavevmode}@|hyperpage}{69}
+\indexentry{boxes !text in|hyperpage}{69}
+\indexentry{boxes|)hyperpage}{72}
+\indexentry{mode|hyperpage}{73}
+\indexentry{mode!horizontal|hyperpage}{73}
+\indexentry{list!horizontal|hyperpage}{73}
+\indexentry{discardable items|hyperpage}{74}
+\indexentry{mode!vertical|hyperpage}{74}
+\indexentry{list!vertical|hyperpage}{74}
+\indexentry{commands!horizontal|hyperpage}{74}
+\indexentry{commands!vertical|hyperpage}{75}
+\indexentry{mode!restricted horizontal|hyperpage}{75}
+\indexentry{mode!internal vertical|hyperpage}{75}
+\indexentry{migrating material|hyperpage}{77}
+\indexentry{vadjust@{\tt  \char `\\vadjust}@|hyperpage}{77}
+\indexentry{showlists@{\tt  \char `\\showlists}@|hyperpage}{77}
+\indexentry{numbers|hyperpage}{79}
+\indexentry{integer|hyperpage}{79}
+\indexentry{category!11|hyperpage}{80}
+\indexentry{category!12|hyperpage}{80}
+\indexentry{category!12|hyperpage}{80}
+\indexentry{point!scaled|hyperpage}{82}
+\indexentry{number!conversion|hyperpage}{82}
+\indexentry{number@{\tt  \char `\\number}@|hyperpage}{82}
+\indexentry{romannumeral@{\tt  \char `\\romannumeral}@|hyperpage}{82}
+\indexentry{roman numerals|hyperpage}{83}
+\indexentry{category!12|hyperpage}{83}
+\indexentry{count@{\tt  \char `\\count}@|hyperpage}{83}
+\indexentry{countdef@{\tt  \char `\\countdef}@|hyperpage}{83}
+\indexentry{newcount@{\tt  \char `\\newcount}@|hyperpage}{83}
+\indexentry{arithmetic|hyperpage}{83}
+\indexentry{advance@{\tt  \char `\\advance}@|hyperpage}{84}
+\indexentry{multiply@{\tt  \char `\\multiply}@|hyperpage}{84}
+\indexentry{divide@{\tt  \char `\\divide}@|hyperpage}{84}
+\indexentry{floating-point!arithmetic|hyperpage}{84}
+\indexentry{fixed-point!arithmetic|hyperpage}{84}
+\indexentry{category!12|hyperpage}{85}
+\indexentry{glue|hyperpage}{87}
+\indexentry{hfil@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip h\relax fil}@|hyperpage}{87}
+\indexentry{hfilneg@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip h\relax filneg}@|hyperpage}{87}
+\indexentry{hfill@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip h\relax fill}@|hyperpage}{87}
+\indexentry{hss@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip h\relax ss}@|hyperpage}{87}
+\indexentry{vfil@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip v\relax fil}@|hyperpage}{87}
+\indexentry{vfill@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip v\relax fill}@|hyperpage}{87}
+\indexentry{vfilneg@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip v\relax filneg}@|hyperpage}{87}
+\indexentry{vss@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip v\relax ss}@|hyperpage}{87}
+\indexentry{dimen@{\tt  \char `\\dimen}@|hyperpage}{90}
+\indexentry{skip@{\tt  \char `\\skip}@|hyperpage}{90}
+\indexentry{dimendef@{\tt  \char `\\dimendef}@|hyperpage}{90}
+\indexentry{skipdef@{\tt  \char `\\skipdef}@|hyperpage}{90}
+\indexentry{newdimen@{\tt  \char `\\newdimen}@|hyperpage}{90}
+\indexentry{newskip@{\tt  \char `\\newskip}@|hyperpage}{90}
+\indexentry{advance@{\tt  \char `\\advance}@|hyperpage}{90}
+\indexentry{glue!arithmetic on|hyperpage}{90}
+\indexentry{arithmetic! on glue|hyperindexformat{\see{glue, arithmetic on}}}{90}
+\indexentry{multiply@{\tt  \char `\\multiply}@|hyperpage}{91}
+\indexentry{divide@{\tt  \char `\\divide}@|hyperpage}{91}
+\indexentry{units of measurement|hyperpage}{91}
+\indexentry{category!12|hyperpage}{92}
+\indexentry{vskip@{\tt  \char `\\vskip}@|hyperpage}{92}
+\indexentry{hskip@{\tt  \char `\\hskip}@|hyperpage}{92}
+\indexentry{stretch|hyperpage}{93}
+\indexentry{shrink|hyperpage}{93}
+\indexentry{stretch|hyperpage}{93}
+\indexentry{shrink|hyperpage}{93}
+\indexentry{glue!stretch component of|hyperpage}{93}
+\indexentry{glue!shrink     component of|hyperpage}{93}
+\indexentry{glue!setting|hyperpage}{94}
+\indexentry{badness|hyperpage}{94}
+\indexentry{badness! calculation|hyperpage}{94}
+\indexentry{hglue@{\tt  \char `\\hglue}@|hyperpage}{95}
+\indexentry{vglue@{\tt  \char `\\vglue}@|hyperpage}{95}
+\indexentry{kern@{\tt  \char `\\kern}@|hyperpage}{95}
+\indexentry{lastskip@{\tt  \char `\\lastskip}@|hyperpage}{95}
+\indexentry{lastkern@{\tt  \char `\\lastkern}@|hyperpage}{95}
+\indexentry{unskip@{\tt  \char `\\unskip}@|hyperpage}{95}
+\indexentry{unkern@{\tt  \char `\\unkern}@|hyperpage}{95}
+\indexentry{removelastskip@{\tt  \char `\\removelastskip}@|hyperpage}{96}
+\indexentry{rules|hyperpage}{99}
+\indexentry{hrule@{\tt  \char `\\hrule}@|hyperpage}{99}
+\indexentry{vrule@{\tt  \char `\\vrule}@|hyperpage}{99}
+\indexentry{leaders|hyperpage}{101}
+\indexentry{leaders!rule|hyperpage}{101}
+\indexentry{leaders@{\tt  \char `\\leaders}@|hyperpage}{101}
+\indexentry{cleaders@{\tt  \char `\\cleaders}@|hyperpage}{102}
+\indexentry{xleaders@{\tt  \char `\\xleaders}@|hyperpage}{103}
+\indexentry{grouping|hyperpage}{105}
+\indexentry{save stack|hyperpage}{105}
+\indexentry{assignment!global|(hyperpage}{106}
+\indexentry{assignment!local|(hyperpage}{106}
+\indexentry{global@{\tt  \char `\\global}@|hyperpage}{106}
+\indexentry{globaldefs@{\tt  \char `\\globaldefs}@|hyperpage}{106}
+\indexentry{assignment!global|)hyperpage}{106}
+\indexentry{assignment!local|)hyperpage}{106}
+\indexentry{group!delimiters|hyperpage}{106}
+\indexentry{category!1|hyperpage}{106}
+\indexentry{category!2|hyperpage}{106}
+\indexentry{braces!explicit|hyperpage}{106}
+\indexentry{braces!implicit|hyperpage}{106}
+\indexentry{begingroup@{\tt  \char `\\begingroup}@|hyperpage}{106}
+\indexentry{endgroup@{\tt  \char `\\endgroup}@|hyperpage}{106}
+\indexentry{bgroup@{\tt  \char `\\bgroup}@|hyperpage}{106}
+\indexentry{egroup@{\tt  \char `\\egroup}@|hyperpage}{106}
+\indexentry{category!2|hyperpage}{107}
+\indexentry{braces|(hyperpage}{107}
+\indexentry{\char 123@{\tt  \char `\\\char 123}@|hyperpage}{108}
+\indexentry{\char 125@{\tt  \char `\\\char 125}@|hyperpage}{108}
+\indexentry{braces|)hyperpage}{108}
+\indexentry{macro|hyperpage}{109}
+\indexentry{macro!definition|hyperpage}{110}
+\indexentry{category!1|hyperpage}{110}
+\indexentry{category!2|hyperpage}{110}
+\indexentry{prefixes !macro|hyperpage}{110}
+\indexentry{global@{\tt  \char `\\global}@|hyperpage}{110}
+\indexentry{macro!outer|hyperpage}{110}
+\indexentry{outer@{\tt  \char `\\outer}@|hyperpage}{110}
+\indexentry{long@{\tt  \char `\\long}@|hyperpage}{111}
+\indexentry{def@{\tt  \char `\\def}@|hyperpage}{111}
+\indexentry{gdef@{\tt  \char `\\gdef}@|hyperpage}{111}
+\indexentry{edef@{\tt  \char `\\edef}@|hyperpage}{111}
+\indexentry{xdef@{\tt  \char `\\xdef}@|hyperpage}{111}
+\indexentry{arguments|hyperpage}{111}
+\indexentry{parameter|hyperpage}{111}
+\indexentry{category!6|hyperpage}{111}
+\indexentry{parameter!undelimited|hyperpage}{112}
+\indexentry{parameter!delimited|hyperpage}{112}
+\indexentry{category!10|hyperpage}{114}
+\indexentry{category!12|hyperpage}{114}
+\indexentry{parameter!character|hyperpage}{114}
+\indexentry{character!parameter|hyperpage}{114}
+\indexentry{csname@{\tt  \char `\\csname}@|hyperpage}{115}
+\indexentry{endcsname@{\tt  \char `\\endcsname}@|hyperpage}{115}
+\indexentry{let@{\tt  \char `\\let}@|hyperpage}{116}
+\indexentry{futurelet@{\tt  \char `\\futurelet}@|hyperpage}{117}
+\indexentry{category!13|hyperpage}{117}
+\indexentry{active character|hyperpage}{117}
+\indexentry{primitive commands|hyperpage}{117}
+\indexentry{command !primitive|hyperpage}{117}
+\indexentry{recursion|hyperpage}{118}
+\indexentry{input!stack|hyperpage}{118}
+\indexentry{loop@{\tt  \char `\\loop}@|hyperpage}{118}
+\indexentry{verbatim mode|hyperpage}{123}
+\indexentry{expansion|hyperpage}{125}
+\indexentry{expansion!expandable constructs|hyperpage}{125}
+\indexentry{expandafter@{\tt  \char `\\expandafter}@|hyperpage}{126}
+\indexentry{edef@{\tt  \char `\\edef}@|hyperpage}{127}
+\indexentry{afterassignment@{\tt  \char `\\afterassignment}@|hyperpage}{127}
+\indexentry{aftergroup@{\tt  \char `\\aftergroup}@|hyperpage}{128}
+\indexentry{string@{\tt  \char `\\string}@|hyperpage}{129}
+\indexentry{noexpand@{\tt  \char `\\noexpand}@|hyperpage}{129}
+\indexentry{category!0|hyperpage}{129}
+\indexentry{character!active, and \cs{noexpand}|hyperpage}{129}
+\indexentry{relax@{\tt  \char `\\relax}@|hyperpage}{130}
+\indexentry{the@{\tt  \char `\\the}@|hyperpage}{132}
+\indexentry{category!12|hyperpage}{132}
+\indexentry{category!10|hyperpage}{132}
+\indexentry{write@{\tt  \char `\\write}@|hyperpage}{134}
+\indexentry{protect@{\tt  \char `\\protect}@|hyperpage}{135}
+\indexentry{conditionals|hyperpage}{139}
+\indexentry{else@{\tt  \char `\\else}@|hyperpage}{139}
+\indexentry{fi@{\tt  \char `\\fi}@|hyperpage}{139}
+\indexentry{if@{\tt  \char `\\if}@|hyperpage}{140}
+\indexentry{ifcat@{\tt  \char `\\ifcat}@|hyperpage}{140}
+\indexentry{category!16|hyperpage}{140}
+\indexentry{ifx@{\tt  \char `\\ifx}@|hyperpage}{141}
+\indexentry{ifhmode@{\tt  \char `\\ifhmode}@|hyperpage}{141}
+\indexentry{ifvmode@{\tt  \char `\\ifvmode}@|hyperpage}{141}
+\indexentry{ifmmode@{\tt  \char `\\ifmmode}@|hyperpage}{141}
+\indexentry{ifinner@{\tt  \char `\\ifinner}@|hyperpage}{141}
+\indexentry{ifnum@{\tt  \char `\\ifnum}@|hyperpage}{142}
+\indexentry{category!12|hyperpage}{142}
+\indexentry{ifodd@{\tt  \char `\\ifodd}@|hyperpage}{142}
+\indexentry{ifdim@{\tt  \char `\\ifdim}@|hyperpage}{142}
+\indexentry{ifhbox@{\tt  \char `\\ifhbox}@|hyperpage}{142}
+\indexentry{ifvbox@{\tt  \char `\\ifvbox}@|hyperpage}{142}
+\indexentry{ifvoid@{\tt  \char `\\ifvoid}@|hyperpage}{142}
+\indexentry{ifeof@{\tt  \char `\\ifeof}@|hyperpage}{142}
+\indexentry{ifcase@{\tt  \char `\\ifcase}@|hyperpage}{142}
+\indexentry{or@{\tt  \char `\\or}@|hyperpage}{142}
+\indexentry{iftrue@{\tt  \char `\\iftrue}@|hyperpage}{143}
+\indexentry{iffalse@{\tt  \char `\\iffalse}@|hyperpage}{143}
+\indexentry{newif@{\tt  \char `\\newif}@|hyperpage}{143}
+\indexentry{category!12|hyperpage}{143}
+\indexentry{category!11|hyperpage}{143}
+\indexentry{conditionals!evaluation of|hyperpage}{144}
+\indexentry{token!list|hyperpage}{151}
+\indexentry{toks@{\tt  \char `\\toks}@|hyperpage}{152}
+\indexentry{toksdef@{\tt  \char `\\toksdef}@|hyperpage}{152}
+\indexentry{newtoks@{\tt  \char `\\newtoks}@|hyperpage}{152}
+\indexentry{glue!interline|hyperpage}{155}
+\indexentry{baseline!distance|hyperpage}{155}
+\indexentry{baselineskip@{\tt  \char `\\baselineskip}@|hyperpage}{155}
+\indexentry{lineskiplimit@{\tt  \char `\\lineskiplimit}@|hyperpage}{156}
+\indexentry{lineskip@{\tt  \char `\\lineskip}@|hyperpage}{156}
+\indexentry{prevdepth@{\tt  \char `\\prevdepth}@|hyperpage}{156}
+\indexentry{prevdepth@{\tt  \char `\\prevdepth}@|hyperpage}{157}
+\indexentry{nointerlineskip@{\tt  \char `\\nointerlineskip}@|hyperpage}{157}
+\indexentry{offinterlineskip@{\tt  \char `\\offinterlineskip}@|hyperpage}{158}
+\indexentry{openup@{\tt  \char `\\openup}@|hyperpage}{158}
+\indexentry{paragraph!start|(hyperpage}{159}
+\indexentry{indent@{\tt  \char `\\indent}@|hyperpage}{160}
+\indexentry{noindent@{\tt  \char `\\noindent}@|hyperpage}{160}
+\indexentry{parskip@{\tt  \char `\\parskip}@|hyperpage}{160}
+\indexentry{parindent@{\tt  \char `\\parindent}@|hyperpage}{160}
+\indexentry{everypar@{\tt  \char `\\everypar}@|hyperpage}{160}
+\indexentry{paragraph!start|)hyperpage}{163}
+\indexentry{paragraph!end|(hyperpage}{165}
+\indexentry{parfillskip@{\tt  \char `\\parfillskip}@|hyperpage}{166}
+\indexentry{paragraph!end|)hyperpage}{168}
+\indexentry{paragraph!shape|(hyperpage}{169}
+\indexentry{line!width|(hyperpage}{170}
+\indexentry{hsize@{\tt  \char `\\hsize}@|hyperpage}{170}
+\indexentry{leftskip@{\tt  \char `\\leftskip}@|hyperpage}{170}
+\indexentry{rightskip@{\tt  \char `\\rightskip}@|hyperpage}{170}
+\indexentry{raggedright@{\tt  \char `\\raggedright}@|hyperpage}{170}
+\indexentry{line!width|)hyperpage}{170}
+\indexentry{indentation!hanging|(hyperpage}{170}
+\indexentry{hangafter@{\tt  \char `\\hangafter}@|hyperpage}{170}
+\indexentry{hangindent@{\tt  \char `\\hangindent}@|hyperpage}{170}
+\indexentry{indentation!hanging|)hyperpage}{171}
+\indexentry{parshape@{\tt  \char `\\parshape}@|hyperpage}{171}
+\indexentry{paragraph!shape|)hyperpage}{174}
+\indexentry{paragraph!breaking into lines|(hyperpage}{175}
+\indexentry{line breaking|(hyperpage}{175}
+\indexentry{badness! and line breaking|hyperpage}{176}
+\indexentry{line breaking!badness|hyperpage}{176}
+\indexentry{lists !horizontal! breakpoints in|hyperpage}{177}
+\indexentry{linepenalty@{\tt  \char `\\linepenalty}@|hyperpage}{177}
+\indexentry{demerits|hyperpage}{177}
+\indexentry{adjdemerits@{\tt  \char `\\adjdemerits}@|hyperpage}{177}
+\indexentry{doublehyphendemerits@{\tt  \char `\\doublehyphendemerits}@|hyperpage}{177}
+\indexentry{finalhyphendemerits@{\tt  \char `\\finalhyphendemerits}@|hyperpage}{177}
+\indexentry{prevgraf@{\tt  \char `\\prevgraf}@|hyperpage}{178}
+\indexentry{looseness@{\tt  \char `\\looseness}@|hyperpage}{178}
+\indexentry{tracingparagraphs@{\tt  \char `\\tracingparagraphs}@|hyperpage}{178}
+\indexentry{pretolerance@{\tt  \char `\\pretolerance}@|hyperpage}{179}
+\indexentry{tolerance@{\tt  \char `\\tolerance}@|hyperpage}{179}
+\indexentry{emergencystretch@{\tt  \char `\\emergencystretch}@|hyperpage}{179}
+\indexentry{discretionary item|hyperpage}{179}
+\indexentry{discretionary@{\tt  \char `\\discretionary}@|hyperpage}{179}
+\indexentry{hyphenchar@{\tt  \char `\\hyphenchar}@|hyperpage}{179}
+\indexentry{character!hyphen|hyperpage}{180}
+\indexentry{defaulthyphenchar@{\tt  \char `\\defaulthyphenchar}@|hyperpage}{180}
+\indexentry{-@{\tt  \char `\\-}@|hyperpage}{180}
+\indexentry{discretionary hyphen|hyperpage}{180}
+\indexentry{hyphenpenalty@{\tt  \char `\\hyphenpenalty}@|hyperpage}{180}
+\indexentry{exhyphenpenalty@{\tt  \char `\\exhyphenpenalty}@|hyperpage}{180}
+\indexentry{languages|hyperpage}{180}
+\indexentry{hyphenation|hyperpage}{181}
+\indexentry{uchyph@{\tt  \char `\\uchyph}@|hyperpage}{181}
+\indexentry{TeX, version 3@\csname TeX\endcsname , version 3|hyperpage}{182}
+\indexentry{lefthyphenmin@{\tt  \char `\\lefthyphenmin}@|hyperpage}{182}
+\indexentry{righthyphenmin@{\tt  \char `\\righthyphenmin}@|hyperpage}{182}
+\indexentry{hyphenation@{\tt  \char `\\hyphenation}@|hyperpage}{182}
+\indexentry{patterns@{\tt  \char `\\patterns}@|hyperpage}{182}
+\indexentry{language|hyperpage}{182}
+\indexentry{language@{\tt  \char `\\language}@|hyperpage}{182}
+\indexentry{language!current|hyperpage}{182}
+\indexentry{language@{\tt  \char `\\language}@|hyperpage}{183}
+\indexentry{paragraph!breaking into lines|)hyperpage}{183}
+\indexentry{line breaking|)hyperpage}{183}
+\indexentry{spacing|(hyperpage}{185}
+\indexentry{space!factor|hyperpage}{186}
+\indexentry{sfcode@{\tt  \char `\\sfcode}@|hyperpage}{186}
+\indexentry{spacefactor@{\tt  \char `\\spacefactor}@|hyperpage}{186}
+\indexentry{spaceskip@{\tt  \char `\\spaceskip}@|hyperpage}{186}
+\indexentry{xspaceskip@{\tt  \char `\\xspaceskip}@|hyperpage}{186}
+\indexentry{space!control|hyperpage}{187}
+\indexentry{\char 32@{\tt  \char `\\\char 32}@|hyperpage}{187}
+\indexentry{tie|hyperpage}{187}
+\indexentry{~@\char 126|hyperpage}{187}
+\indexentry{spacefactor code|hyperpage}{188}
+\indexentry{sfcode@{\tt  \char `\\sfcode}@|hyperpage}{188}
+\indexentry{frenchspacing@{\tt  \char `\\frenchspacing}@|hyperpage}{188}
+\indexentry{nonfrenchspacing@{\tt  \char `\\nonfrenchspacing}@|hyperpage}{188}
+\indexentry{frenchspacing|hyperpage}{188}
+\indexentry{spacing|)hyperpage}{189}
+\indexentry{math characters|(hyperpage}{192}
+\indexentry{mathcode@{\tt  \char `\\mathcode}@|hyperpage}{192}
+\indexentry{mathchar@{\tt  \char `\\mathchar}@|hyperpage}{192}
+\indexentry{mathchardef@{\tt  \char `\\mathchardef}@|hyperpage}{192}
+\indexentry{math characters|)hyperpage}{192}
+\indexentry{delimiters|(hyperpage}{192}
+\indexentry{left@{\tt  \char `\\left}@|hyperpage}{192}
+\indexentry{right@{\tt  \char `\\right}@|hyperpage}{192}
+\indexentry{delcode@{\tt  \char `\\delcode}@|hyperpage}{193}
+\indexentry{delimiter code|hyperpage}{193}
+\indexentry{delimiter@{\tt  \char `\\delimiter}@|hyperpage}{193}
+\indexentry{delimiter!size|(hyperpage}{193}
+\indexentry{delimiterfactor@{\tt  \char `\\delimiterfactor}@|hyperpage}{193}
+\indexentry{delimitershortfall@{\tt  \char `\\delimitershortfall}@|hyperpage}{193}
+\indexentry{nulldelimiterspace@{\tt  \char `\\nulldelimiterspace}@|hyperpage}{193}
+\indexentry{character!extendable|hyperpage}{194}
+\indexentry{successor|hyperpage}{194}
+\indexentry{delimiter!size|)hyperpage}{194}
+\indexentry{big \rm  etc.@{\tt  \char `\\big \rm  etc.}@|hyperpage}{194}
+\indexentry{delimiters|)hyperpage}{194}
+\indexentry{radical|hyperpage}{194}
+\indexentry{radical@{\tt  \char `\\radical}@|hyperpage}{194}
+\indexentry{accents in math mode|(hyperpage}{195}
+\indexentry{mathaccent@{\tt  \char `\\mathaccent}@|hyperpage}{195}
+\indexentry{skew@{\tt  \char `\\skew}@|hyperpage}{195}
+\indexentry{skewchar@{\tt  \char `\\skewchar}@|hyperpage}{195}
+\indexentry{defaultskewchar@{\tt  \char `\\defaultskewchar}@|hyperpage}{195}
+\indexentry{widehat@{\tt  \char `\\widehat}@|hyperpage}{195}
+\indexentry{widetilde@{\tt  \char `\\widetilde}@|hyperpage}{195}
+\indexentry{accents in math mode|)hyperpage}{195}
+\indexentry{font families|hyperpage}{197}
+\indexentry{fam@{\tt  \char `\\fam}@|hyperpage}{198}
+\indexentry{newfam@{\tt  \char `\\newfam}@|hyperpage}{198}
+\indexentry{textfont@{\tt  \char `\\textfont}@|hyperpage}{198}
+\indexentry{scriptfont@{\tt  \char `\\scriptfont}@|hyperpage}{198}
+\indexentry{scriptscriptfont@{\tt  \char `\\scriptscriptfont}@|hyperpage}{198}
+\indexentry{math mode|hyperpage}{202}
+\indexentry{math shift character|hyperpage}{202}
+\indexentry{category!3|hyperpage}{202}
+\indexentry{math mode!display|hyperpage}{202}
+\indexentry{math mode!non-display|hyperpage}{202}
+\indexentry{everymath@{\tt  \char `\\everymath}@|hyperpage}{202}
+\indexentry{math styles|hyperpage}{202}
+\indexentry{cramped styles|hyperpage}{202}
+\indexentry{superscript|(hyperpage}{203}
+\indexentry{subscript|(hyperpage}{203}
+\indexentry{category!7|hyperpage}{203}
+\indexentry{category!8|hyperpage}{203}
+\indexentry{\char 94@{\tt  \char `\\\char 94}@|hyperpage}{203}
+\indexentry{\char 95@{\tt  \char `\\\char 95}@|hyperpage}{203}
+\indexentry{scriptspace@{\tt  \char `\\scriptspace}@|hyperpage}{203}
+\indexentry{superscript|)hyperpage}{203}
+\indexentry{subscript|)hyperpage}{203}
+\indexentry{displaystyle@{\tt  \char `\\displaystyle}@|hyperpage}{203}
+\indexentry{textstyle@{\tt  \char `\\textstyle}@|hyperpage}{203}
+\indexentry{scriptstyle@{\tt  \char `\\scriptstyle}@|hyperpage}{203}
+\indexentry{scriptscriptstyle@{\tt  \char `\\scriptscriptstyle}@|hyperpage}{203}
+\indexentry{mathchoice@{\tt  \char `\\mathchoice}@|hyperpage}{203}
+\indexentry{math classes|hyperpage}{204}
+\indexentry{mathord@{\tt  \char `\\mathord}@|hyperpage}{204}
+\indexentry{mathop@{\tt  \char `\\mathop}@|hyperpage}{204}
+\indexentry{mathbin@{\tt  \char `\\mathbin}@|hyperpage}{204}
+\indexentry{mathrel@{\tt  \char `\\mathrel}@|hyperpage}{204}
+\indexentry{mathopen@{\tt  \char `\\mathopen}@|hyperpage}{204}
+\indexentry{mathclose@{\tt  \char `\\mathclose}@|hyperpage}{204}
+\indexentry{mathpunct@{\tt  \char `\\mathpunct}@|hyperpage}{204}
+\indexentry{mathinner@{\tt  \char `\\mathinner}@|hyperpage}{204}
+\indexentry{limits@{\tt  \char `\\limits}@|hyperpage}{204}
+\indexentry{nolimits@{\tt  \char `\\nolimits}@|hyperpage}{204}
+\indexentry{displaylimits@{\tt  \char `\\displaylimits}@|hyperpage}{205}
+\indexentry{formula!axis   of|hyperpage}{205}
+\indexentry{formula!centring of|hyperpage}{205}
+\indexentry{vcenter@{\tt  \char `\\vcenter}@|hyperpage}{205}
+\indexentry{math spacing|(hyperpage}{205}
+\indexentry{math units|hyperpage}{205}
+\indexentry{quad|hyperpage}{205}
+\indexentry{mkern@{\tt  \char `\\mkern}@|hyperpage}{206}
+\indexentry{mskip@{\tt  \char `\\mskip}@|hyperpage}{206}
+\indexentry{mu glue|hyperpage}{206}
+\indexentry{thickmuskip@{\tt  \char `\\thickmuskip}@|hyperpage}{206}
+\indexentry{medmuskip@{\tt  \char `\\medmuskip}@|hyperpage}{206}
+\indexentry{thinmuskip@{\tt  \char `\\thinmuskip}@|hyperpage}{206}
+\indexentry{muskip@{\tt  \char `\\muskip}@|hyperpage}{206}
+\indexentry{muskipdef@{\tt  \char `\\muskipdef}@|hyperpage}{206}
+\indexentry{newmuskip@{\tt  \char `\\newmuskip}@|hyperpage}{206}
+\indexentry{nonscript@{\tt  \char `\\nonscript}@|hyperpage}{207}
+\indexentry{mathsurround@{\tt  \char `\\mathsurround}@|hyperpage}{207}
+\indexentry{math spacing|)hyperpage}{207}
+\indexentry{generalized fractions|hyperpage}{207}
+\indexentry{over@{\tt  \char `\\over}@|hyperpage}{207}
+\indexentry{atop@{\tt  \char `\\atop}@|hyperpage}{207}
+\indexentry{above@{\tt  \char `\\above}@|hyperpage}{207}
+\indexentry{overwithdelims@{\tt  \char `\\overwithdelims}@|hyperpage}{207}
+\indexentry{atopwithdelims@{\tt  \char `\\atopwithdelims}@|hyperpage}{207}
+\indexentry{abovewithdelims@{\tt  \char `\\abovewithdelims}@|hyperpage}{207}
+\indexentry{underline@{\tt  \char `\\underline}@|hyperpage}{208}
+\indexentry{overline@{\tt  \char `\\overline}@|hyperpage}{208}
+\indexentry{relpenalty@{\tt  \char `\\relpenalty}@|hyperpage}{208}
+\indexentry{binoppenaly@{\tt  \char `\\binoppenaly}@|hyperpage}{208}
+\indexentry{penalties in math mode|hyperpage}{208}
+\indexentry{breakpoints in math lists|hyperpage}{208}
+\indexentry{allowbreak@{\tt  \char `\\allowbreak}@|hyperpage}{208}
+\indexentry{symbol font|(hyperpage}{208}
+\indexentry{symbol font|)hyperpage}{209}
+\indexentry{extension font|(hyperpage}{209}
+\indexentry{extension font|)hyperpage}{209}
+\indexentry{display math|hyperpage}{211}
+\indexentry{category!3|hyperpage}{211}
+\indexentry{everydisplay@{\tt  \char `\\everydisplay}@|hyperpage}{212}
+\indexentry{displayindent@{\tt  \char `\\displayindent}@|hyperpage}{212}
+\indexentry{displaywidth@{\tt  \char `\\displaywidth}@|hyperpage}{212}
+\indexentry{predisplaypenalty@{\tt  \char `\\predisplaypenalty}@|hyperpage}{212}
+\indexentry{abovedisplayskip@{\tt  \char `\\abovedisplayskip}@|hyperpage}{212}
+\indexentry{abovedisplayshortskip@{\tt  \char `\\abovedisplayshortskip}@|hyperpage}{212}
+\indexentry{postdisplaypenalty@{\tt  \char `\\postdisplaypenalty}@|hyperpage}{212}
+\indexentry{belowdisplayskip@{\tt  \char `\\belowdisplayskip}@|hyperpage}{212}
+\indexentry{belowdisplayshortskip@{\tt  \char `\\belowdisplayshortskip}@|hyperpage}{212}
+\indexentry{predisplaysize@{\tt  \char `\\predisplaysize}@|hyperpage}{212}
+\indexentry{machine dependence|hyperpage}{213}
+\indexentry{equation numbering|(hyperpage}{213}
+\indexentry{eqno@{\tt  \char `\\eqno}@|hyperpage}{213}
+\indexentry{leqno@{\tt  \char `\\leqno}@|hyperpage}{213}
+\indexentry{equation numbering|)hyperpage}{214}
+\indexentry{displays!non-centred|hyperpage}{214}
+\indexentry{alignments|(hyperpage}{217}
+\indexentry{tables|hyperpage}{217}
+\indexentry{halign@{\tt  \char `\\halign}@|hyperpage}{217}
+\indexentry{valign@{\tt  \char `\\valign}@|hyperpage}{217}
+\indexentry{horizontal alignment|hyperpage}{218}
+\indexentry{display alignment|hyperpage}{218}
+\indexentry{vertical alignment|hyperpage}{218}
+\indexentry{noalign@{\tt  \char `\\noalign}@|hyperpage}{218}
+\indexentry{alignment tab|hyperpage}{219}
+\indexentry{category!4|hyperpage}{219}
+\indexentry{span@{\tt  \char `\\span}@|hyperpage}{220}
+\indexentry{tabskip@{\tt  \char `\\tabskip}@|hyperpage}{220}
+\indexentry{omit@{\tt  \char `\\omit}@|hyperpage}{221}
+\indexentry{span@{\tt  \char `\\span}@|hyperpage}{222}
+\indexentry{hidewidth@{\tt  \char `\\hidewidth}@|hyperpage}{222}
+\indexentry{alignments!rules in|(hyperpage}{222}
+\indexentry{multispan@{\tt  \char `\\multispan}@|hyperpage}{223}
+\indexentry{strut@{\tt  \char `\\strut}@|hyperpage}{223}
+\indexentry{alignments!rules in|)hyperpage}{223}
+\indexentry{cr@{\tt  \char `\\cr}@|hyperpage}{223}
+\indexentry{crcr@{\tt  \char `\\crcr}@|hyperpage}{223}
+\indexentry{cases@{\tt  \char `\\cases}@|hyperpage}{223}
+\indexentry{everycr@{\tt  \char `\\everycr}@|hyperpage}{223}
+\indexentry{matrix@{\tt  \char `\\matrix}@|hyperpage}{224}
+\indexentry{eqalignno@{\tt  \char `\\eqalignno}@|hyperpage}{224}
+\indexentry{centering@{\tt  \char `\\centering}@|hyperpage}{224}
+\indexentry{alignments|)hyperpage}{224}
+\indexentry{page positioning|hyperpage}{225}
+\indexentry{hoffset@{\tt  \char `\\hoffset}@|hyperpage}{225}
+\indexentry{voffset@{\tt  \char `\\voffset}@|hyperpage}{225}
+\indexentry{topskip@{\tt  \char `\\topskip}@|hyperpage}{225}
+\indexentry{page!height|(hyperpage}{226}
+\indexentry{page!depth|(hyperpage}{226}
+\indexentry{vsize@{\tt  \char `\\vsize}@|hyperpage}{226}
+\indexentry{maxdepth@{\tt  \char `\\maxdepth}@|hyperpage}{226}
+\indexentry{raggedbottom@{\tt  \char `\\raggedbottom}@|hyperpage}{226}
+\indexentry{page!height|)hyperpage}{226}
+\indexentry{page!depth|)hyperpage}{226}
+\indexentry{page!breaking|(hyperpage}{227}
+\indexentry{current page|hyperpage}{228}
+\indexentry{recent contributions|hyperpage}{228}
+\indexentry{page!builder|hyperpage}{228}
+\indexentry{outputpenalty@{\tt  \char `\\outputpenalty}@|hyperpage}{228}
+\indexentry{page!length|(hyperpage}{228}
+\indexentry{pagetotal@{\tt  \char `\\pagetotal}@|hyperpage}{229}
+\indexentry{pagedepth@{\tt  \char `\\pagedepth}@|hyperpage}{229}
+\indexentry{pagestretch@{\tt  \char `\\pagestretch}@|hyperpage}{229}
+\indexentry{pagefilstretch@{\tt  \char `\\pagefilstretch}@|hyperpage}{229}
+\indexentry{pagefillstretch@{\tt  \char `\\pagefillstretch}@|hyperpage}{229}
+\indexentry{pageshrink@{\tt  \char `\\pageshrink}@|hyperpage}{229}
+\indexentry{pagefilllstretch@{\tt  \char `\\pagefilllstretch}@|hyperpage}{229}
+\indexentry{page!length|)hyperpage}{229}
+\indexentry{breakpoints in vertical lists|hyperpage}{229}
+\indexentry{lastpenalty@{\tt  \char `\\lastpenalty}@|hyperpage}{229}
+\indexentry{unpenalty@{\tt  \char `\\unpenalty}@|hyperpage}{229}
+\indexentry{penalties!in vertical mode|hyperpage}{229}
+\indexentry{penalty@{\tt  \char `\\penalty}@|hyperpage}{230}
+\indexentry{breakpoints!computation of|(hyperpage}{230}
+\indexentry{breakpoints!computation of|)hyperpage}{231}
+\indexentry{vsplit@{\tt  \char `\\vsplit}@|hyperpage}{231}
+\indexentry{splitmaxdepth@{\tt  \char `\\splitmaxdepth}@|hyperpage}{231}
+\indexentry{splittopskip@{\tt  \char `\\splittopskip}@|hyperpage}{231}
+\indexentry{page!breaking|)hyperpage}{234}
+\indexentry{output routine|(hyperpage}{235}
+\indexentry{output@{\tt  \char `\\output}@|hyperpage}{235}
+\indexentry{shipout@{\tt  \char `\\shipout}@|hyperpage}{236}
+\indexentry{deadcycles@{\tt  \char `\\deadcycles}@|hyperpage}{236}
+\indexentry{maxdeadcycles@{\tt  \char `\\maxdeadcycles}@|hyperpage}{236}
+\indexentry{mark@{\tt  \char `\\mark}@|hyperpage}{237}
+\indexentry{marks|hyperpage}{237}
+\indexentry{botmark@{\tt  \char `\\botmark}@|hyperpage}{237}
+\indexentry{firstmark@{\tt  \char `\\firstmark}@|hyperpage}{237}
+\indexentry{topmark@{\tt  \char `\\topmark}@|hyperpage}{237}
+\indexentry{splitbotmark@{\tt  \char `\\splitbotmark}@|hyperpage}{237}
+\indexentry{splitfirstmark@{\tt  \char `\\splitfirstmark}@|hyperpage}{237}
+\indexentry{page!numbering|(hyperpage}{238}
+\indexentry{page!numbering|)hyperpage}{238}
+\indexentry{output routine|)hyperpage}{240}
+\indexentry{insertions|hyperpage}{241}
+\indexentry{insert@{\tt  \char `\\insert}@|hyperpage}{241}
+\indexentry{newinsert@{\tt  \char `\\newinsert}@|hyperpage}{242}
+\indexentry{pagegoal@{\tt  \char `\\pagegoal}@|hyperpage}{243}
+\indexentry{floatingpenalty@{\tt  \char `\\floatingpenalty}@|hyperpage}{243}
+\indexentry{insertpenalties@{\tt  \char `\\insertpenalties}@|hyperpage}{243}
+\indexentry{holdinginserts@{\tt  \char `\\holdinginserts}@|hyperpage}{244}
+\indexentry{TeX, version 3@\csname TeX\endcsname , version 3|hyperpage}{244}
+\indexentry{insertpenalties@{\tt  \char `\\insertpenalties}@|hyperpage}{244}
+\indexentry{pageinsert@{\tt  \char `\\pageinsert}@|hyperpage}{244}
+\indexentry{midinsert@{\tt  \char `\\midinsert}@|hyperpage}{244}
+\indexentry{endinsert@{\tt  \char `\\endinsert}@|hyperpage}{244}
+\indexentry{I/O!file|(hyperpage}{245}
+\indexentry{files|hyperpage}{245}
+\indexentry{input@{\tt  \char `\\input}@|hyperpage}{245}
+\indexentry{input files|hyperpage}{245}
+\indexentry{endinput@{\tt  \char `\\endinput}@|hyperpage}{245}
+\indexentry{streams|hyperpage}{246}
+\indexentry{newread@{\tt  \char `\\newread}@|hyperpage}{246}
+\indexentry{newwrite@{\tt  \char `\\newwrite}@|hyperpage}{246}
+\indexentry{openin@{\tt  \char `\\openin}@|hyperpage}{246}
+\indexentry{closein@{\tt  \char `\\closein}@|hyperpage}{246}
+\indexentry{openout@{\tt  \char `\\openout}@|hyperpage}{246}
+\indexentry{closeout@{\tt  \char `\\closeout}@|hyperpage}{246}
+\indexentry{read@{\tt  \char `\\read}@|hyperpage}{246}
+\indexentry{write@{\tt  \char `\\write}@|hyperpage}{247}
+\indexentry{whatsits|(hyperpage}{247}
+\indexentry{I/O!asynchronous|hyperpage}{247}
+\indexentry{immediate@{\tt  \char `\\immediate}@|hyperpage}{247}
+\indexentry{whatsits|)hyperpage}{247}
+\indexentry{inputlineno@{\tt  \char `\\inputlineno}@|hyperpage}{247}
+\indexentry{pausing@{\tt  \char `\\pausing}@|hyperpage}{248}
+\indexentry{I/O!screen|hyperpage}{248}
+\indexentry{message@{\tt  \char `\\message}@|hyperpage}{248}
+\indexentry{newlinechar@{\tt  \char `\\newlinechar}@|hyperpage}{248}
+\indexentry{I/O!file|)hyperpage}{249}
+\indexentry{registers!allocation of|(hyperpage}{251}
+\indexentry{newlanguage@{\tt  \char `\\newlanguage}@|hyperpage}{251}
+\indexentry{registers!allocation of|)hyperpage}{252}
+\indexentry{job|(hyperpage}{255}
+\indexentry{jobname@{\tt  \char `\\jobname}@|hyperpage}{255}
+\indexentry{everyjob@{\tt  \char `\\everyjob}@|hyperpage}{255}
+\indexentry{end@{\tt  \char `\\end}@|hyperpage}{256}
+\indexentry{bye@{\tt  \char `\\bye}@|hyperpage}{256}
+\indexentry{log file|hyperpage}{256}
+\indexentry{job|)hyperpage}{256}
+\indexentry{run modes|(hyperpage}{256}
+\indexentry{errorstopmode@{\tt  \char `\\errorstopmode}@|hyperpage}{256}
+\indexentry{scrollmode@{\tt  \char `\\scrollmode}@|hyperpage}{256}
+\indexentry{nonstopmode@{\tt  \char `\\nonstopmode}@|hyperpage}{257}
+\indexentry{batchmode@{\tt  \char `\\batchmode}@|hyperpage}{257}
+\indexentry{run modes|)hyperpage}{257}
+\indexentry{TeX@\csname TeX\endcsname |hyperpage}{259}
+\indexentry{IniTeX@\csname IniTeX\endcsname |hyperpage}{259}
+\indexentry{VirTeX@\csname VirTeX\endcsname |hyperpage}{259}
+\indexentry{format file|hyperpage}{259}
+\indexentry{dump@{\tt  \char `\\dump}@|hyperpage}{260}
+\indexentry{LaTeX@\csname LaTeX\endcsname |hyperpage}{262}
+\indexentry{Lollipop|hyperpage}{262}
+\indexentry{{\tt  dvi} file|hyperpage}{263}
+\indexentry{magnification|hyperpage}{263}
+\indexentry{mag@{\tt  \char `\\mag}@|hyperpage}{263}
+\indexentry{magnification@{\tt  \char `\\magnification}@|hyperpage}{263}
+\indexentry{specials|hyperpage}{264}
+\indexentry{special@{\tt  \char `\\special}@|hyperpage}{264}
+\indexentry{device driver|hyperpage}{264}
+\indexentry{PostScript|hyperpage}{264}
+\indexentry{year@{\tt  \char `\\year}@|hyperpage}{264}
+\indexentry{month@{\tt  \char `\\month}@|hyperpage}{264}
+\indexentry{day@{\tt  \char `\\day}@|hyperpage}{264}
+\indexentry{time@{\tt  \char `\\time}@|hyperpage}{264}
+\indexentry{time|hyperpage}{264}
+\indexentry{date|hyperpage}{264}
+\indexentry{font metrics|hyperpage}{264}
+\indexentry{virtual fonts|hyperpage}{265}
+\indexentry{device drivers|hyperpage}{265}
+\indexentry{font files|(hyperpage}{265}
+\indexentry{font files|)hyperpage}{265}
+\indexentry{Computer Modern|hyperpage}{266}
+\indexentry{web@\csname web\endcsname |hyperpage}{266}
+\indexentry{Pascal|hyperpage}{266}
+\indexentry{TUG|hyperpage}{267}
+\indexentry{TUGboat|hyperpage}{267}
+\indexentry{tracing|(hyperpage}{269}
+\indexentry{statistics|hyperpage}{269}
+\indexentry{tracingcommands@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racingcommands}@|hyperpage}{269}
+\indexentry{tracingmacros@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racingmacros}@|hyperpage}{269}
+\indexentry{tracingonline@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racingonline}@|hyperpage}{269}
+\indexentry{tracingpages@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racingpages}@|hyperpage}{269}
+\indexentry{tracinglostchars@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racinglostchars}@|hyperpage}{269}
+\indexentry{tracingrestores@{\tt  \char `\unskip {\@@par }\let \reserved@d =*\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \GenericError  {               }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing  <return>  to proceed.\MessageBreak If that doesn't work, type  X <return>  to quit.}\let \reserved@d =[\def \vrule width\z@ \penalty \@M \hskip \def \hskip \z@skip \hskip \ignorespaces \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip \relax \relax \futurelet \@let@token \let \hskip \hskip \relax \relax \hskip t\relax racingrestores}@|hyperpage}{270}
+\indexentry{show@{\tt  \char `\\show}@|hyperpage}{270}
+\indexentry{meaning@{\tt  \char `\\meaning}@|hyperpage}{270}
+\indexentry{showthe@{\tt  \char `\\showthe}@|hyperpage}{270}
+\indexentry{category!12|hyperpage}{270}
+\indexentry{tracingoutput@{\tt  \char `\\tracingoutput}@|hyperpage}{270}
+\indexentry{showbox@{\tt  \char `\\showbox}@|hyperpage}{270}
+\indexentry{showboxdepth@{\tt  \char `\\showboxdepth}@|hyperpage}{271}
+\indexentry{showboxbreadth@{\tt  \char `\\showboxbreadth}@|hyperpage}{271}
+\indexentry{tracingstats@{\tt  \char `\\tracingstats}@|hyperpage}{272}
+\indexentry{tracing|)hyperpage}{273}
+\indexentry{errmessage@{\tt  \char `\\errmessage}@|hyperpage}{275}
+\indexentry{errorcontextlines@{\tt  \char `\\errorcontextlines}@|hyperpage}{275}
+\indexentry{error patching|hyperpage}{275}
+\indexentry{errhelp@{\tt  \char `\\errhelp}@|hyperpage}{276}
+\indexentry{overflow errors|(hyperpage}{276}
+\indexentry{TeX, big@\csname TeX\endcsname , big|hyperpage}{277}
+\indexentry{overflow errors|)hyperpage}{278}
+\indexentry{keywords|(hyperpage}{280}
+\indexentry{category!13|hyperpage}{280}
+\indexentry{keywords|)hyperpage}{280}
+\indexentry{space!optional|hyperpage}{280}
+\indexentry{TeX, version 2@\csname TeX\endcsname , version 2|hyperpage}{281}
+\indexentry{TeX, version 3@\csname TeX\endcsname , version 3|hyperpage}{281}
+\indexentry{table, {\sc  ascii}|hyperpage}{298}
+\indexentry{table, character codes|hyperpage}{299}
+\indexentry{font tables|hyperpage}{300}
+\indexentry{tables, font|hyperpage}{300}
+\indexentry{math symbols, lists of|hyperpage}{305}
