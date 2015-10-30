@@ -45,12 +45,10 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
 
     % flip so singular values are in descending order
     %Shat = flipud(fliplr(D));
-    sortedEigenvalues = sort(diag(D), 'descend');
+    sortedEigenvalues = flipud(diag(D));
     % threshold eigenvalues
     sortedEigenvalues = sortedEigenvalues(abs(sortedEigenvalues) > p.Results.threshold);
     singularValues = sqrt(sortedEigenvalues);
-    % threshold singularvalues
-    %singularValues = singularValues(singularValues > p.Results.threshold);
 
     % create Shat as diagonal matrix with singular values as diagonal
     Shat = diag(singularValues);
@@ -61,12 +59,12 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
     V = fliplr(V);
     Vhat = V(:,1:r);
 
-    % Define u_i as 1/\sigma_i A v_i
+    % Define u_i as (A v_i)/sigma_i
     % A*Vhat is A*v_i for all i
     % then divide by singular values
     Uhat = (A*Vhat)./repmat(singularValues', m, 1);
-    Uhat = zeros(m,r );
-    for p = 1:r
-       Uhat(:,p) = 1/singularValues(p)*A*Vhat(:,p);
-    end
+    %Uhat = zeros(m,r);
+    %for p = 1:r
+    %   Uhat(:,p) = 1/singularValues(p)*A*Vhat(:,p);
+    %end
 end
