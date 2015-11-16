@@ -29,7 +29,7 @@ function [output1,output2] = function_name(input1,input2,input3)
 % Author: Caleb Logemann
 % email: logemann@iastate.edu
 % Website: http://www.logemann.public.iastate.edu/
-% October 2015; Last revision: 22-October-2015
+% November 2015; Last revision: 22-November-2015
 
 %------------- BEGIN CODE --------------
 
