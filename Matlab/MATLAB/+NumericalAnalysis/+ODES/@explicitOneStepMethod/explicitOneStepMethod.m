@@ -1,5 +1,5 @@
-classdef (Abstract) ODEExplicitOneStepMethod
-%ODEEXPLICITONESTEPMETHOD - Abstract class to represent the generic way to solve
+classdef (Abstract) explicitOneStepMethod
+%EXPLICITONESTEPMETHOD - Abstract class to represent the generic way to solve
 %a system of ODEs via an explicit one step method
 %
 %A method is one step if it only considers the information from the previous step
@@ -20,14 +20,14 @@ classdef (Abstract) ODEExplicitOneStepMethod
 % Author: Caleb Logemann
 % email: logemann@iastate.edu
 % Website: http://www.logemann.public.iastate.edu/
-% November 2015; Last revision: 15-November-2015
+% November 2015; Last revision: 16-November-2015
 
     methods (Abstract)
-        phi(f, x, y, h)
+        phi = phi(f, x, y, h);
     end
 
     methods 
-        solveSystem(f, x, yInit)
+        y = solveSystem(ExplicitOneStepMethod, f, x, yInit);
     end
     
 end

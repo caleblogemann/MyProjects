@@ -1,10 +1,10 @@
-function [y] = solveSystem(ODEExplicitOneStepMethod, f, x, yInit)
+function [y] = solveSystem(explicitOneStepMethod, f, x, yInit)
 %SOLVESYSTEM - function to apply an explicit one step method to a
 %system of ODEs and find a numerical solution
-%This function is part of the ODEExplicitOneStepMethod Class
+%This function is part of the explicitOneStepMethod Class
 %As such the onject this method is attached to is passed in as first argument
 %
-% Where Phi is an NumericalAnalysis ODEExplicitOneStepMethod object
+% Where Phi is an NumericalAnalysis explicitOneStepMethod object
 % Syntax:  [y] = Phi.solveSystem(f, x, yInit)
 %
 % Inputs:
@@ -48,6 +48,6 @@ function [y] = solveSystem(ODEExplicitOneStepMethod, f, x, yInit)
 
     for i = 1:n-1
         % find the next value of y
-        y(:, i+1) = y(:,i) + h(i)*ODEExplicitOneStepMethod.phi(f, x(i), y(:,i), h(i));
+        y(:, i+1) = y(:,i) + h(i)*explicitOneStepMethod.phi(f, x(i), y(:,i), h(i));
     end
 end
