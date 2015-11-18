@@ -98,12 +98,9 @@
 \def\ln{\@ifstar{\oldln}{\lna}}
 
 \let\oldlog\log
-\newcommand{\loga}[1]{\oldlog\paren{#1}}
-\def\log{\@ifstar{\oldlog}{\loga}}
-
-\newcommand{\logbaseparen}[2]{\oldlog_{#1}\paren{#2}}
-\newcommand{\logbase}[1]{\oldlog_{#1}}
-\def\logb{\@ifstar{\logbase}{\logbaseparen}}
+\newcommand{\loga}[2][]{\oldlog_{#1}\paren{#2}}
+\newcommand{\logna}[1][]{\oldlog_{#1}}
+\def\log{\@ifstar{\logna}{\loga}}
 
 \let\oldmin\min
 \newcommand{\mina}[1]{\oldmin\set{#1}}
