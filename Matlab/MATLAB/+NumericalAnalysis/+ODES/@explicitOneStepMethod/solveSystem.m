@@ -17,10 +17,7 @@ function [y] = solveSystem(explicitOneStepMethod, f, x, yInit)
 %    y - matrix whose columns are points found numerically to approximate
 %       the solution to the system of ODEs
 %
-% Example: 
-%    Line 1 of example
-%    Line 2 of example
-%    Line 3 of example
+% Example: %TODO add example
 %
 % Other m-files required: none
 % Subfunctions: none

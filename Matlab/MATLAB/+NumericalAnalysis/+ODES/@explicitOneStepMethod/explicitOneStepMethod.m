@@ -8,11 +8,6 @@ classdef (Abstract) explicitOneStepMethod
 %
 % This is an abstract class and cannot be instantiated
 %
-% Example: 
-%    Line 1 of example
-%    Line 2 of example
-%    Line 3 of example
-%
 % Other m-files required: none
 % Subfunctions: none
 % MAT-files required: none
