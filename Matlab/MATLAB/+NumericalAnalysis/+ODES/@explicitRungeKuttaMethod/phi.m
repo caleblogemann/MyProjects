@@ -43,9 +43,9 @@ function [phi] = phi(explicitRungeKuttaMethod, f, x, y, h)
     p.parse(f, x, y, h);
 
 
-    k = zeros(explicitRungeKuttaMethod.r, 1);
+    k = zeros(length(y), explicitRungeKuttaMethod.r);
     for i=1:explicitRungeKuttaMethod.r
-        k(i) = f(x + explicitRungeKuttaMethod.mu(i)*h, y + h*explicitRungeKuttaMethod.lambda(i, :)*k);
+        k(:,i) = f(x + explicitRungeKuttaMethod.mu(i)*h, y + h*k*explicitRungeKuttaMethod.lambda(i, :).');
     end
-    phi = explicitRungeKuttaMethod.alpha*k;
+    phi = k*explicitRungeKuttaMethod.alpha.';
 end

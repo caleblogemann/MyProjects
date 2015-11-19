@@ -78,7 +78,7 @@ classdef explicitRungeKuttaMethod < NumericalAnalysis.ODES.explicitOneStepMethod
             obj.alpha = alpha;
             obj.lambda = lambda;
             obj.mu = sum(lambda, 2);
-            end5+
+        end
 
         phi = phi(ExplicitRungeKuttaMethod, f, x, y, h);
     end
