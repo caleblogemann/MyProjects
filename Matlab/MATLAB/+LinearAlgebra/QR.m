@@ -6,8 +6,8 @@ function [Q, R] = QR(A)
 % Syntax:  [Q, R] = LinearAlgebra.QR(A)
 %
 % Inputs:
-%    A - m by n matrix, with m > n and full rank, that is rank A = n
-%    TODO: allow for n <= m and A not to have full rank
+%    A - m by n matrix, with m >= n and full rank, that is rank A = n
+%    TODO: allow for n < m and A not to have full rank
 %
 % Outputs:
 %    Q - m by m unitary matrix
@@ -32,7 +32,7 @@ function [Q, R] = QR(A)
     p.addRequired('A', @Utils.isNumericMatrix)
     p.parse(A);
 
-    % TODO: add check for m > n and full rank
+    % TODO: add check for m >= n and full rank
 
     [Qhat, Rhat] = LinearAlgebra.reducedQR(A);
 
@@ -40,6 +40,6 @@ function [Q, R] = QR(A)
     Q = LinearAlgebra.extendToOrthonormalBasis(Qhat);
     % fill in zeros of Rhat
     R = zeros(size(A));
-    n = length(Rhat);
-    R(1:n,1:n) = Rhat;
+    [m, ~] = size(Rhat);
+    R(1:m,1:m) = Rhat;
 end

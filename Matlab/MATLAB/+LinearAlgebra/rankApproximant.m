@@ -1,5 +1,5 @@
 function [Ak] = rankApproximant(A, k)
-%RANKAPPROXIMANT - creates the best approximant of A of rank k
+%RANKAPPROXIMANT - creates the best 2-norm approximant of A of rank k
 %that is finds A_k such that norm(A - A_k) <= norm(A - B) for all matrices B
 %with rank B = k.
 %
@@ -10,8 +10,8 @@ function [Ak] = rankApproximant(A, k)
 %    k - rank of approximant
 %
 % Outputs:
-%    Ak - matrix of same size as A, such that rank Ak = k
-%    and norm(A - Ak) < norm(A - B) for all matrices B with rank k
+%    Ak - matrix of same size as A, such that rank(Ak) = k
+%    and norm(A - Ak) <= norm(A - B) for all matrices B with rank = k
 %
 % Example: 
 %    A = rand(7);
@@ -34,7 +34,7 @@ function [Ak] = rankApproximant(A, k)
     p.parse(A, k);
 
     [m, n] = size(A);
-    if(k > n)
+    if(k > n || k > m)
         error('Rank input must be less than size of A');
     end
 
@@ -42,7 +42,10 @@ function [Ak] = rankApproximant(A, k)
     singularValues = diag(S);
     % remove extra positive singular values
     % so that only k positive singular values remain
-    singularValues(k+1:end) = 0;
+    % if k = n, then all singular values are needed
+    if(k < n)
+        singularValues(k+1:end) = 0;
+    end
     Sk = diag(singularValues);
     Ak = U*Sk*V';
 end

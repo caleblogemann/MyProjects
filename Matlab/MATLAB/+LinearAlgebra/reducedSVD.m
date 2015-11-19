@@ -12,7 +12,7 @@ function [Uhat, Shat, Vhat] = reducedSVD(A, varargin);
 %    A - m by n matrix, with rank A = r where 1 <= r <= n
 %
 % Outputs:
-%    UHat - m by r matrix with orthonormal columns
+%    Uhat - m by r matrix with orthonormal columns
 %    Shat - r by r diagonal matrix where diagonal entries are nonzero singular values
 %    Vhat - n by r matrix with orthonormal columns
 %

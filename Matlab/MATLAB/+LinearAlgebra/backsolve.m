@@ -1,7 +1,7 @@
 function [x] = backsolve(R, b)
 % BACKSOLVE solves the matrix equation Rx = b, where R is upper triangular
 %
-% Syntax: x = LinearAlgebra.backsolge(R, b)
+% Syntax: x = LinearAlgebra.backsolve(R, b)
 %
 % Inputs:
 %    R - m by n upper triangular matrix, with m >= n

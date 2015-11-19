@@ -8,7 +8,7 @@ function [Q] = extendToOrthonormalBasis(A)
 % Syntax:  Q = LinearAlgebra.extendToOrthonormalBasis(A)
 %
 % Inputs:
-%    A - m by k matrix whose columns are an orthonormal set of vectors
+%    A - m by k complex matrix whose columns are an orthonormal set of vectors
 %
 % Outputs:
 %    Q - m by m unitary matrix whose first k columns are A
@@ -43,7 +43,7 @@ function [Q] = extendToOrthonormalBasis(A)
     Q = zeros(m);
     Q(:,1:k) = A;
 
-    epsilon = 5*eps;
+    epsilon = 1e-4;
     while k < m;
         % choose random m-vector
         w = rand(m, 1);
