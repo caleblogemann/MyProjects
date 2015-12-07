@@ -115,13 +115,18 @@ classdef latexFileWriter < handle
             output = strcat(output, '\n');
         end
 
-        function [ output ] = printMatrix(input)
+        function [ output ] = printMatrix(input, varargin)
+            if isempty(varargin)
+                precision = 5;
+            else
+                precision = varargin{1};
+            end
             output = sprintf('\\begin{bmatrix}\n');
             [nRows, nCols] = size(input);
             for i=1:nRows
                 output = sprintf('%s    ', output);
                 for j=1:nCols
-                    output = sprintf('%s%s', output, num2str(input(i, j)));
+                    output = sprintf('%s%.*f', output, precision, input(i, j));
                     if(j < nCols)
                         output = sprintf('%s & ', output);
                     end
