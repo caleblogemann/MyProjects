@@ -116,8 +116,8 @@ classdef latexFileWriter < handle
         end
 
         function [ output ] = printMatrix(input, varargin)
-            if(isempty(varargin))
-               precision = 9;
+            if isempty(varargin)
+                precision = 5;
             else
                 precision = varargin{1};
             end
@@ -126,7 +126,7 @@ classdef latexFileWriter < handle
             for i=1:nRows
                 output = sprintf('%s    ', output);
                 for j=1:nCols
-                    output = sprintf('%s%.*f', output,precision, input(i, j));
+                    output = sprintf('%s%.*f', output, precision, input(i, j));
                     if(j < nCols)
                         output = sprintf('%s & ', output);
                     end
