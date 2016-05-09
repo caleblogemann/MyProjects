@@ -54,6 +54,11 @@
 \let\oldbr\br
 \def\br{\@ifstar{\oldbr}{\oldbr*}}
 
+% Angle Brackets
+\DeclarePairedDelimiter{\anglebr}{\langle}{\rangle}
+\let\oldanglebr\anglebr
+\def\anglebr{\@ifstar{\oldanglebr}{\oldanglebr*}}
+
 % use \cos default to include parenthesis
 % \cos* will not have parenthesis
 % applies to all future commands
