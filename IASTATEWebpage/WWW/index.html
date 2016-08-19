@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="calebLogemann" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Caleb Logemann</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="app.css">
+
+  <!-- Javascript -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="research/research.js"></script>
+  <script src="coursework/coursework.js"></script>
+  <script src="teaching/teaching.js"></script>
+</head>
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#/home">Caleb Logemann</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li ng-class="{active"><a href="#/home">Home</a></li>
+            <li><a href="#/research">Research</a></li>
+            <li><a href="#/coursework">Coursework</a></li>
+            <li><a href="#/teaching">Teaching</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" ng-view>
+    </div>
+</body>
+</html>
