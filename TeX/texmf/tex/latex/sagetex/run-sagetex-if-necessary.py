@@ -35,7 +35,7 @@ import re
 import subprocess
 
 # CHANGE THIS AS APPROPRIATE
-path_to_sage = os.path.expanduser('~/bin/sage')
+path_to_sage = os.path.expanduser('~/dotfiles/bin/sage')
 # or try to auto-find it:
 # path_to_sage = subprocess.check_output(['which', 'sage']).strip()
 # or just tell me:
