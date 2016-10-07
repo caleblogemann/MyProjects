@@ -3,4 +3,6 @@
 
 % redefine limit command
 \let\oldlim\lim
-\renewcommand{\lim}[2]{\oldlim_{#1}\paren{#2}}
+\newcommand{\limna}[1][]{\oldlim_{#1}}
+\newcommand{\lima}[2][]{\oldlim_{#1}\paren{#2}}
+\def\lim{\@ifstar{\limna}{\lima}}

@@ -58,6 +58,8 @@
 \DeclarePairedDelimiter{\anglebr}{\langle}{\rangle}
 \let\oldanglebr\anglebr
 \def\anglebr{\@ifstar{\oldanglebr}{\oldanglebr*}}
+% alias for \anglebr
+\newcommand{\abr}[1]{\anglebr{#1}}
 
 % use \cos default to include parenthesis
 % \cos* will not have parenthesis
@@ -108,9 +110,11 @@
 \def\log{\@ifstar{\logna}{\loga}}
 
 \let\oldmin\min
-\newcommand{\mina}[1]{\oldmin\set{#1}}
-\def\min{\@ifstar{\oldmin}{\mina}}
+\newcommand{\mina}[2][]{\oldmin_{#1}\set{#2}}
+\newcommand{\minna}[1][]{\oldmin_{#1}}
+\def\min{\@ifstar{\minna}{\mina}}
 
 \let\oldmax\max
-\newcommand{\maxa}[1]{\max\set{#1}}
-\def\max{\@ifstar{\oldmax}{\maxa}}
+\newcommand{\maxa}[2][]{\max_{#1}\set{#2}}
+\newcommand{\maxna}[1][]{\max_{#1}}
+\def\max{\@ifstar{\maxna}{\maxa}}
