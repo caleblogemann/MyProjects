@@ -115,6 +115,6 @@
 \def\min{\@ifstar{\minna}{\mina}}
 
 \let\oldmax\max
-\newcommand{\maxa}[2][]{\max_{#1}\set{#2}}
-\newcommand{\maxna}[1][]{\max_{#1}}
+\newcommand{\maxa}[2][]{\oldmax_{#1}\set{#2}}
+\newcommand{\maxna}[1][]{\oldmax_{#1}}
 \def\max{\@ifstar{\maxna}{\maxa}}
