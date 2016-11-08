@@ -3,9 +3,15 @@
 
 % required for DeclareMathOperator
 \RequirePackage{amsopn}
+% required for different fonts
+\RequirePackage{mathrsfs}
+
+% Required for commands with arguments
+\RequirePackage{Logemann}
 
 % for overset on arrows
 \RequirePackage{mathtools}
+
 
 \DeclareMathOperator{\ess}{ess}
 % mathematical support, supp(f) = closure of {x : f(x) \neq 0}
@@ -13,3 +19,8 @@
 
 % symbol for weak convergence
 \newcommand{\wto}{\xrightarrow{w}}
+
+% Laplace Transform
+\newcommand{\msL}{\mathscr{L}}
+\newcommand{\LT}[1]{\msL\set{#1}}
+\newcommand{\ILT}[1]{\msL^{-1}\set{#1}}
