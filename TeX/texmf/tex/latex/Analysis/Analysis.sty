@@ -8,6 +8,7 @@
 
 % Required for commands with arguments
 \RequirePackage{Logemann}
+\RequirePackage{Limit}
 
 % for overset on arrows
 \RequirePackage{mathtools}
@@ -16,6 +17,11 @@
 \DeclareMathOperator{\ess}{ess}
 % mathematical support, supp(f) = closure of {x : f(x) \neq 0}
 \DeclareMathOperator{\supp}{supp}
+
+\let\oldsup\sup
+\newcommand{\supna}[1][]{\oldlim_{#1}}
+\newcommand{\supa}[2][]{\oldlim_{#1}\paren{#2}}
+\def\sup{\@ifstar{\supna}{\supa}}
 
 % symbol for weak convergence
 \newcommand{\wto}{\xrightarrow{w}}
