@@ -1,8 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{Derivative}[2015/09/10 Derivative Package]
 
-\renewcommand{\d}[3][]{\frac{\mathrm{d}^{#1}{#2}}{\mathrm{d}{#3}^{#1}}}
-%\newcommand{\ds}[3]{\frac{\mathrm{d}^{#1}{#2}}{\mathrm{d}{#3}^{#1}}}
+\newcommand{\dna}[3][]{\frac{\mathrm{d}^{#1}{#2}}{\mathrm{d}{#3}^{#1}}}
+\newcommand{\da}[3][]{\frac{\mathrm{d}^{#1}}{\mathrm{d}{#3}^{#1}}\p{#2}}
+\def\d{\@ifstar{\da}{\dna}}
 
 % partial derivative commands
 \newcommand{\pda}[4][]{\dfrac{\partial^{#1}{#2}}{\partial{#3}^{#1}}\p{#4}}
