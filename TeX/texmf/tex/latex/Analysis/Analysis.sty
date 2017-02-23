@@ -19,8 +19,8 @@
 \DeclareMathOperator{\supp}{supp}
 
 \let\oldsup\sup
-\newcommand{\supna}[1][]{\oldlim_{#1}}
-\newcommand{\supa}[2][]{\oldlim_{#1}\paren{#2}}
+\newcommand{\supna}[1][]{\oldsup_{#1}}
+\newcommand{\supa}[2][]{\oldsup_{#1}\paren{#2}}
 \def\sup{\@ifstar{\supna}{\supa}}
 
 % symbol for weak convergence
