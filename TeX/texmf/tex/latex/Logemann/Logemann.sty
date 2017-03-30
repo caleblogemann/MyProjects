@@ -59,7 +59,7 @@
 \let\oldanglebr\anglebr
 \def\anglebr{\@ifstar{\oldanglebr}{\oldanglebr*}}
 % alias for \anglebr
-\newcommand{\abr}[1]{\anglebr{#1}}
+\newcommand{\abr}[2][]{\anglebr{#2}_{#1}}
 
 % use \cos default to include parenthesis
 % \cos* will not have parenthesis
