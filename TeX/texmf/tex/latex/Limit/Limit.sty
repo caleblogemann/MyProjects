@@ -1,8 +1,0 @@
-\NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{Limit}[2015/03/30 Limit Package]
-
-% redefine limit command
-\let\oldlim\lim
-\newcommand{\limna}[1][]{\oldlim_{#1}}
-\newcommand{\lima}[2][]{\oldlim_{#1}\paren{#2}}
-\def\lim{\@ifstar{\limna}{\lima}}

@@ -100,6 +100,21 @@
 \newcommand{\cota}[1]{\oldcot\paren{#1}}
 \def\cot{\@ifstar{\oldcot}{\cota}}
 
+\let\oldcosh\cosh
+\newcommand{\cosha}[1]{\oldcosh\paren{#1}}
+\def\cosh{\@ifstar{\oldcosh}{\cosha}}
+
+\let\oldarccosh\arccosh
+\newcommand{\arccosha}[1]{\oldarccosh\paren{#1}}
+\def\arccosh{\@ifstar{\oldarccosh}{\arccosha}}
+
+\let\oldsinh\sinh
+\newcommand{\sinha}[1]{\oldsinh\paren{#1}}
+\def\sinh{\@ifstar{\oldsinh}{\sinha}}
+
+\let\oldarcsinh\arcsinh
+\newcommand{\arcsinha}[1]{\oldarcsinh\paren{#1}}
+\def\arcsinh{\@ifstar{\oldarcsinh}{\arcsinha}}
 \let\oldln\ln
 \newcommand{\lna}[1]{\oldln\paren{#1}}
 \def\ln{\@ifstar{\oldln}{\lna}}
@@ -108,6 +123,11 @@
 \newcommand{\loga}[2][]{\oldlog_{#1}\paren{#2}}
 \newcommand{\logna}[1][]{\oldlog_{#1}}
 \def\log{\@ifstar{\logna}{\loga}}
+
+\let\oldlim\lim
+\newcommand{\limna}[1][]{\oldlim_{#1}}
+\newcommand{\lima}[2][]{\oldlim_{#1}\paren{#2}}
+\def\lim{\@ifstar{\limna}{\lima}}
 
 \let\oldmin\min
 \newcommand{\mina}[2][]{\oldmin_{#1}\set{#2}}
@@ -118,3 +138,23 @@
 \newcommand{\maxa}[2][]{\oldmax_{#1}\set{#2}}
 \newcommand{\maxna}[1][]{\oldmax_{#1}}
 \def\max{\@ifstar{\maxna}{\maxa}}
+
+\let\oldsup\sup
+\newcommand{\supna}[1][]{\oldsup_{#1}}
+\newcommand{\supa}[2][]{\oldsup_{#1}\paren{#2}}
+\def\sup{\@ifstar{\supna}{\supa}}
+
+\let\oldinf\inf
+\newcommand{\infna}[1][]{\oldinf_{#1}}
+\newcommand{\infa}[2][]{\oldinf_{#1}\paren{#2}}
+\def\inf{\@ifstar{\infna}{\infa}}
+
+\let\oldlimsup\limsup
+\newcommand{\limsupna}[1][]{\oldlimsup_{#1}}
+\newcommand{\limsupa}[2][]{\oldlimsup_{#1}\paren{#2}}
+\def\limsup{\@ifstar{\limsupna}{\limsupa}}
+
+\let\oldliminf\liminf
+\newcommand{\liminfna}[1][]{\oldliminf_{#1}}
+\newcommand{\liminfa}[2][]{\oldliminf_{#1}\paren{#2}}
+\def\liminf{\@ifstar{\liminfna}{\liminfa}}
