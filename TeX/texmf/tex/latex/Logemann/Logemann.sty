@@ -104,8 +104,8 @@
 \newcommand{\cosha}[1]{\oldcosh\paren{#1}}
 \def\cosh{\@ifstar{\oldcosh}{\cosha}}
 
-\let\oldarccosh\arccosh
-\newcommand{\arccosha}[1]{\oldarccosh\paren{#1}}
+\newcommand{\arccosha}[1]{\oldcosh^{-1}\paren{#1}}
+\newcommand{\oldarccosha}{\oldcosh^{-1}}
 \def\arccosh{\@ifstar{\oldarccosh}{\arccosha}}
 
 \let\oldsinh\sinh
@@ -113,8 +113,10 @@
 \def\sinh{\@ifstar{\oldsinh}{\sinha}}
 
 \let\oldarcsinh\arcsinh
-\newcommand{\arcsinha}[1]{\oldarcsinh\paren{#1}}
+\newcommand{\arcsinha}[1]{\oldsinh^{-1}\paren{#1}}
+\newcommand{\oldarcsinha}{\oldsinh^{-1}}
 \def\arcsinh{\@ifstar{\oldarcsinh}{\arcsinha}}
+
 \let\oldln\ln
 \newcommand{\lna}[1]{\oldln\paren{#1}}
 \def\ln{\@ifstar{\oldln}{\lna}}
