@@ -117,6 +117,14 @@
 \newcommand{\oldarcsinha}{\oldsinh^{-1}}
 \def\arcsinh{\@ifstar{\oldarcsinh}{\arcsinha}}
 
+\let\oldtanh\tanh
+\newcommand{\tanha}[2][]{\oldtanh^{#1}\paren{#2}}
+\def\tanh{\@ifstar{\oldtanh}{\tanha}}
+
+\newcommand{\arctanha}[1]{\oldtanh^{-1}\paren{#1}}
+\newcommand{\oldarctanha}{\oldtanh^{-1}}
+\def\arctanh{\@ifstar{\oldarctanh}{\arctanha}}
+
 \let\oldln\ln
 \newcommand{\lna}[1]{\oldln\paren{#1}}
 \def\ln{\@ifstar{\oldln}{\lna}}
