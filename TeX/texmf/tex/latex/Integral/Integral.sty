@@ -1,12 +1,29 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{Integral}[2015/09/10 Integral Package]
 
+\RequirePackage{Logemann}
+
 % redefine integral commands with inputs
+% indefinite integral without dx
 \let\oldint\int
-\renewcommand{\int}[1]{\oldint\!{#1}}
-\newcommand{\intt}[2]{\oldint\!{#1}\,\mathrm{d}{#2}}
-\newcommand{\dint}[3]{\oldint_{#1}^{#2}\!{#3}}
-\newcommand{\dintt}[4]{\oldint_{#1}^{#2}\!{#3}\,\mathrm{d}{#4}}
+\newcommand{\inta}[1]{\oldint\!\paren{#1}}
+\newcommand{\intna}[1]{\oldint\!{#1}}
+\def\int{\@ifstar{\inta}{\intna}}
+
+% indefinite integral with dx
+\newcommand{\intta}[2]{\oldint\!\paren{#1}\,\mathrm{d}{#2}}
+\newcommand{\inttna}[2]{\oldint\!{#1}\,\mathrm{d}{#2}}
+\def\intt{\@ifstar{\intta}{\inttna}}
+
+% definite integral with bounds but no dx
+\newcommand{\dintna}[3]{\oldint_{#1}^{#2}\!{#3}}
+\newcommand{\dinta}[3]{\oldint_{#1}^{#2}\!\paren{#3}}
+\def\dint{\@ifstar{\dinta}{\dintna}}
+
+% definite integral
+\newcommand{\dinttna}[4]{\oldint_{#1}^{#2}\!{#3}\,\mathrm{d}{#4}}
+\newcommand{\dintta}[4]{\oldint_{#1}^{#2}\!\paren{#3}\,\mathrm{d}{#4}}
+\def\dintt{\@ifstar{\dintta}{\dinttna}}
 
 \let\oldiint\iint
 \renewcommand{\iint}[4]{\oldiint_{#1}\!{#2}\,\mathrm{d}{#3}\,\mathrm{d}{#4}}
