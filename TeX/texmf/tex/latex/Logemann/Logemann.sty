@@ -14,6 +14,9 @@
 \RequirePackage{amsmath}
 \RequirePackage{booktabs}
 
+% inline fraction
+\newcommand{\ifrac}[2]{#1/#2}
+
 % absolute value function
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}
 % Swap the definition of \abs* , so that \abs
@@ -65,12 +68,14 @@
 % \cos* will not have parenthesis
 % applies to all future commands
 \let\oldcos\cos
-\newcommand{\cosa}[1]{\oldcos\paren{#1}}
-\def\cos{\@ifstar{\oldcos}{\cosa}}
+\newcommand{\cosa}[2][]{\oldcos^{#1}\paren{#2}}
+\newcommand{\cosna}[1][]{\oldcos^{#1}}
+\def\cos{\@ifstar{\cosna}{\cosa}}
 
 \let\oldsin\sin
-\newcommand{\sina}[1]{\oldsin\paren{#1}}
-\def\sin{\@ifstar{\oldsin}{\sina}}
+\newcommand{\sina}[2][]{\oldsin^{#1}\paren{#2}}
+\newcommand{\sinna}[1][]{\oldsin^{#1}}
+\def\sin{\@ifstar{\sinna}{\sina}}
 
 \let\oldarcsin\arcsin
 \newcommand{\arcsina}[1]{\oldarcsin\paren{#1}}
@@ -85,32 +90,38 @@
 \def\arctan{\@ifstar{\oldarctan}{\arctana}}
 
 \let\oldtan\tan
-\newcommand{\tana}[1]{\oldtan\paren{#1}}
-\def\tan{\@ifstar{\oldtan}{\tana}}
+\newcommand{\tana}[2][]{\oldtan^{#1}\paren{#2}}
+\newcommand{\tanna}[1][]{\oldtan^{#1}}
+\def\tan{\@ifstar{\tanna}{\tana}}
 
 \let\oldcsc\csc
-\newcommand{\csca}[1]{\oldcsc\paren{#1}}
-\def\csc{\@ifstar{\oldcsc}{\csca}}
+\newcommand{\csca}[2][]{\oldcsc^{#1}\paren{#2}}
+\newcommand{\cscna}[1][]{\oldcsc^{#1}}
+\def\csc{\@ifstar{\cscna}{\csca}}
 
 \let\oldsec\sec
-\newcommand{\seca}[1]{\oldsec\paren{#1}}
-\def\sec{\@ifstar{\oldsec}{\seca}}
+\newcommand{\seca}[2][]{\oldsec^{#1}\paren{#2}}
+\newcommand{\secna}[1][]{\oldsec^{#1}}
+\def\sec{\@ifstar{\secna}{\seca}}
 
 \let\oldcot\cot
-\newcommand{\cota}[1]{\oldcot\paren{#1}}
-\def\cot{\@ifstar{\oldcot}{\cota}}
+\newcommand{\cota}[2][]{\oldcot^{#1}\paren{#2}}
+\newcommand{\cotna}[1][]{\oldcot^{#1}}
+\def\cot{\@ifstar{\cotna}{\cota}}
 
 \let\oldcosh\cosh
-\newcommand{\cosha}[1]{\oldcosh\paren{#1}}
-\def\cosh{\@ifstar{\oldcosh}{\cosha}}
+\newcommand{\cosha}[2][]{\oldcosh^{#1}\paren{#2}}
+\newcommand{\coshna}[1][]{\oldcosh^{#1}}
+\def\cosh{\@ifstar{\coshna}{\cosha}}
 
 \newcommand{\arccosha}[1]{\oldcosh^{-1}\paren{#1}}
 \newcommand{\oldarccosha}{\oldcosh^{-1}}
 \def\arccosh{\@ifstar{\oldarccosh}{\arccosha}}
 
 \let\oldsinh\sinh
-\newcommand{\sinha}[1]{\oldsinh\paren{#1}}
-\def\sinh{\@ifstar{\oldsinh}{\sinha}}
+\newcommand{\sinha}[2][]{\oldsinh^{#1}\paren{#2}}
+\newcommand{\sinhna}[1][]{\oldsinh^{#1}}
+\def\sinh{\@ifstar{\sinhna}{\sinha}}
 
 \let\oldarcsinh\arcsinh
 \newcommand{\arcsinha}[1]{\oldsinh^{-1}\paren{#1}}
@@ -119,7 +130,8 @@
 
 \let\oldtanh\tanh
 \newcommand{\tanha}[2][]{\oldtanh^{#1}\paren{#2}}
-\def\tanh{\@ifstar{\oldtanh}{\tanha}}
+\newcommand{\tanhna}[1][]{\oldtanh^{#1}}
+\def\tanh{\@ifstar{\tanhna}{\tanha}}
 
 \newcommand{\arctanha}[1]{\oldtanh^{-1}\paren{#1}}
 \newcommand{\oldarctanha}{\oldtanh^{-1}}
