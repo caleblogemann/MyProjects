@@ -1,6 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{Derivative}[2015/09/10 Derivative Package]
 
+\RequirePackage{mathtools}
+
+\DeclareMathOperator{\Div}{div}
+
 \newcommand{\dna}[3][]{\frac{\mathrm{d}^{#1}{#2}}{\mathrm{d}{#3}^{#1}}}
 \newcommand{\da}[3][]{\frac{\mathrm{d}^{#1}}{\mathrm{d}{#3}^{#1}}\p{#2}}
 \def\d{\@ifstar{\da}{\dna}}
