@@ -14,6 +14,11 @@
 \RequirePackage{amsmath}
 \RequirePackage{booktabs}
 
+% inline frac
+\newcommand{\ifrac}[2]{#1/#2}
+
+% sign
+\DeclareMathOperator{\sign}{sign}
 % absolute value function
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}
 % Swap the definition of \abs* , so that \abs
@@ -69,8 +74,9 @@
 \def\cos{\@ifstar{\oldcos}{\cosa}}
 
 \let\oldsin\sin
-\newcommand{\sina}[1]{\oldsin\paren{#1}}
-\def\sin{\@ifstar{\oldsin}{\sina}}
+\newcommand{\sinna}[1][]{\oldsin^{#1}}
+\newcommand{\sina}[2][]{\oldsin^{#1}\paren{#2}}
+\def\sin{\@ifstar{\sinna}{\sina}}
 
 \let\oldarcsin\arcsin
 \newcommand{\arcsina}[1]{\oldarcsin\paren{#1}}
@@ -144,10 +150,25 @@
 \newcommand{\minna}[1][]{\oldmin_{#1}}
 \def\min{\@ifstar{\minna}{\mina}}
 
+\DeclareMathOperator{\oldargmin}{argmin}
+\newcommand{\argmina}[2][]{\oldargmin_{#1}\set{#2}}
+\newcommand{\argminna}[1][]{\oldargmin_{#1}}
+\def\argmin{\@ifstar{\argminna}{\argmina}}
+
 \let\oldmax\max
 \newcommand{\maxa}[2][]{\oldmax_{#1}\set{#2}}
 \newcommand{\maxna}[1][]{\oldmax_{#1}}
 \def\max{\@ifstar{\maxna}{\maxa}}
+
+\DeclareMathOperator{\oldargmax}{argmax}
+\newcommand{\argmaxa}[2][]{\oldargmax_{#1}\set{#2}}
+\newcommand{\argmaxna}[1][]{\oldargmax_{#1}}
+\def\argmax{\@ifstar{\argmaxna}{\argmaxa}}
+
+\DeclareMathOperator{\oldminmod}{minmod}
+\newcommand{\minmoda}[1]{\oldminmod\p{#1}}
+\newcommand{\minmodna}{\oldminmod}
+\def\minmod{\@ifstar{\minmodna}{\minmoda}}
 
 \let\oldsup\sup
 \newcommand{\supna}[1][]{\oldsup_{#1}}
