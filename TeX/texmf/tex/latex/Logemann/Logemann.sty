@@ -14,6 +14,8 @@
 \RequirePackage{amsmath}
 \RequirePackage{booktabs}
 
+% sign
+\DeclareMathOperator{\sign}{sign}
 % inline fraction
 \newcommand{\ifrac}[2]{#1/#2}
 
@@ -73,8 +75,13 @@
 \def\cos{\@ifstar{\cosna}{\cosa}}
 
 \let\oldsin\sin
+<<<<<<< HEAD
+\newcommand{\sinna}[1][]{\oldsin^{#1}}
+\newcommand{\sina}[2][]{\oldsin^{#1}\paren{#2}}
+=======
 \newcommand{\sina}[2][]{\oldsin^{#1}\paren{#2}}
 \newcommand{\sinna}[1][]{\oldsin^{#1}}
+>>>>>>> 6f0b554a78b739eb25c43c1190872ad7a3345d3b
 \def\sin{\@ifstar{\sinna}{\sina}}
 
 \let\oldarcsin\arcsin
@@ -156,10 +163,25 @@
 \newcommand{\minna}[1][]{\oldmin_{#1}}
 \def\min{\@ifstar{\minna}{\mina}}
 
+\DeclareMathOperator{\oldargmin}{argmin}
+\newcommand{\argmina}[2][]{\oldargmin_{#1}\set{#2}}
+\newcommand{\argminna}[1][]{\oldargmin_{#1}}
+\def\argmin{\@ifstar{\argminna}{\argmina}}
+
 \let\oldmax\max
 \newcommand{\maxa}[2][]{\oldmax_{#1}\set{#2}}
 \newcommand{\maxna}[1][]{\oldmax_{#1}}
 \def\max{\@ifstar{\maxna}{\maxa}}
+
+\DeclareMathOperator{\oldargmax}{argmax}
+\newcommand{\argmaxa}[2][]{\oldargmax_{#1}\set{#2}}
+\newcommand{\argmaxna}[1][]{\oldargmax_{#1}}
+\def\argmax{\@ifstar{\argmaxna}{\argmaxa}}
+
+\DeclareMathOperator{\oldminmod}{minmod}
+\newcommand{\minmoda}[1]{\oldminmod\p{#1}}
+\newcommand{\minmodna}{\oldminmod}
+\def\minmod{\@ifstar{\minmodna}{\minmoda}}
 
 \let\oldsup\sup
 \newcommand{\supna}[1][]{\oldsup_{#1}}
