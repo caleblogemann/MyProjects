@@ -16,6 +16,7 @@
 
 % sign
 \DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\sgn}{sgn}
 % inline fraction
 \newcommand{\ifrac}[2]{#1/#2}
 
@@ -55,9 +56,10 @@
 \def\set{\@ifstar{\oldset}{\oldset*}}
 
 % Square Brackets
-\DeclarePairedDelimiter{\br}{[}{]}
-\let\oldbr\br
-\def\br{\@ifstar{\oldbr}{\oldbr*}}
+\DeclarePairedDelimiter{\bracket}{[}{]}
+\let\oldbracket\bracket
+\def\bracket{\@ifstar{\oldbracket}{\oldbracket*}}
+\newcommand{\br}[2][]{\bracket{#2}_{#1}}
 
 % Angle Brackets
 \DeclarePairedDelimiter{\anglebr}{\langle}{\rangle}

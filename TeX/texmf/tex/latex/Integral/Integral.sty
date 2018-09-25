@@ -29,4 +29,6 @@
 \renewcommand{\iint}[4]{\oldiint_{#1}\!{#2}\,\mathrm{d}{#3}\,\mathrm{d}{#4}}
 
 % define macro for bounds
-\newcommand{\eval}[3]{\left. #1 \right\rvert_{#2}^{#3}}
+\newcommand{\evalb}[3]{\left. #1 \right\rvert_{#2}^{#3}}
+\newcommand{\evall}[2]{\left. #1 \right\rvert_{#2}}
+\def\eval{\@ifstar{\evalb}{\evall}}
