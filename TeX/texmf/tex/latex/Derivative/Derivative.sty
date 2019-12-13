@@ -2,6 +2,7 @@
 \ProvidesPackage{Derivative}[2015/09/10 Derivative Package]
 
 \RequirePackage{mathtools}
+\RequirePackage{Logemann}
 
 \DeclareMathOperator{\Div}{div}
 
@@ -20,3 +21,17 @@
 \newcommand{\mpd}[3][]{\dfrac{\partial^{#1}{#2}}{#3}}
 %\def\mpd{\@ifstar{\mpdna}{\mpda}}
 
+% divergence
+\newcommand{\diva}[1]{\nabla \cdot \p{#1}}
+\newcommand{\divna}[1]{\nabla \cdot #1}
+\renewcommand{\div}{\@ifstar{\diva}{\divna}}
+
+% gradient
+\newcommand{\grada}[1]{\nabla\p{#1}}
+\newcommand{\gradna}[1]{\nabla #1}
+\newcommand{\grad}{\@ifstar{\grada}{\gradna}}
+
+% laplacian
+\newcommand{\laplacea}[1]{\Delta\p{#1}}
+\newcommand{\laplacena}[1]{\Delta #1}
+\newcommand{\laplace}{\@ifstar{\laplacea}{\laplacena}}

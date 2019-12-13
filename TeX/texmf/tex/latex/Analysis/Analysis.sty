@@ -3,6 +3,7 @@
 
 % required for DeclareMathOperator
 \RequirePackage{amsopn}
+\RequirePackage{SetTheory}
 % required for different fonts
 %\RequirePackage{rsfs}
 
@@ -17,6 +18,5 @@
 \newcommand{\wto}{\xrightarrow{w}}
 
 % Laplace Transform
-\newcommand{\msL}{\mathscr{L}}
-\newcommand{\LT}[1]{\msL\set{#1}}
-\newcommand{\ILT}[1]{\msL^{-1}\set{#1}}
+\newcommand{\LT}[1]{\mcL\set{#1}}
+\newcommand{\ILT}[1]{\mcL^{-1}\set{#1}}
