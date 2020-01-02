@@ -58,7 +58,7 @@ with open(src + '.tex') as texf:
             break
 
 if not uses_sagetex:
-    print src + ".tex doesn't seem to use SageTeX, exiting."
+    print(src + ".tex doesn't seem to use SageTeX, exiting.")
     sys.exit(0)
 
 # if something goes wrong, assume we need to run Sage
@@ -72,7 +72,7 @@ try:
             if not re.search(ignore, line):
                 h.update(line)
 except IOError:
-    print '{0}.sagetex.sage not found, I think you need to typeset {0}.tex first.'.format(src)
+    print('{0}.sagetex.sage not found, I think you need to typeset {0}.tex first.'.format(src))
     sys.exit(1)
 
 try:
@@ -80,8 +80,8 @@ try:
         for line in outf:
             m = re.match('%([0-9a-f]+)% md5sum', line)
             if m:
-                print 'computed md5:', h.hexdigest()
-                print 'sagetex.sout md5:', m.group(1)
+                print('computed md5:', h.hexdigest())
+                print('sagetex.sout md5:', m.group(1))
                 if h.hexdigest() == m.group(1):
                     run_sage = False
                     break
@@ -89,7 +89,7 @@ except IOError:
     pass
 
 if run_sage:
-    print 'Need to run Sage on {0}.'.format(src)
+    print('Need to run Sage on {0}.'.format(src))
     sys.exit(subprocess.call([path_to_sage, src + '.sagetex.sage']))
 else:
-    print 'Not necessary to run Sage on {0}.'.format(src)
+    print('Not necessary to run Sage on {0}.'.format(src))
